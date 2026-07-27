@@ -1,0 +1,3358 @@
+{
+ "character": [
+  {
+   "item": "12x5",
+   "category": "Shared camo panels",
+   "note": "placard panel size token, no camo"
+  },
+  {
+   "item": "12x5 MCB",
+   "category": "Shared camo panels",
+   "note": "MultiCam Black"
+  },
+  {
+   "item": "40mm",
+   "category": "Pouches & admin",
+   "realname": "40mm grenade pouch"
+  },
+  {
+   "item": "6x5",
+   "category": "Shared camo panels",
+   "note": "placard panel size token"
+  },
+  {
+   "item": "6x5 MCB",
+   "category": "Shared camo panels",
+   "note": "MultiCam Black"
+  },
+  {
+   "item": "6x9",
+   "category": "Shared camo panels",
+   "note": "placard panel size token"
+  },
+  {
+   "item": "6x9 MCB",
+   "category": "Shared camo panels",
+   "note": "MultiCam Black"
+  },
+  {
+   "item": "AOR1",
+   "category": "Shared camo panels",
+   "note": "AOR1 camo token"
+  },
+  {
+   "item": "AOR2",
+   "category": "Shared camo panels",
+   "note": "AOR2 camo token"
+  },
+  {
+   "item": "APAmazing",
+   "category": "Other",
+   "note": "unidentifiable"
+  },
+  {
+   "item": "AmbdominalProCrye",
+   "category": "Belts & holsters",
+   "realname": "Crye Precision AVS/Abdominal (Ambdominal) Pro belt",
+   "note": "misspelled 'Abdominal Pro'"
+  },
+  {
+   "item": "AmbdominalPro_sdr",
+   "category": "Belts & holsters",
+   "realname": "Abdominal Pro belt",
+   "note": "_sdr variant"
+  },
+  {
+   "item": "AmbdominalPro_sdr 1",
+   "category": "Belts & holsters",
+   "realname": "Abdominal Pro belt",
+   "note": "Unity duplicate suffix"
+  },
+  {
+   "item": "Arms",
+   "category": "Body / base mesh"
+  },
+  {
+   "item": "BLK",
+   "category": "Other",
+   "note": "colour token: black"
+  },
+  {
+   "item": "BLK GRAY",
+   "category": "Shared camo panels",
+   "note": "black/gray colourway"
+  },
+  {
+   "item": "BLK OD GREEN",
+   "category": "Shared camo panels",
+   "note": "black/OD green colourway"
+  },
+  {
+   "item": "BR_Knive",
+   "category": "Knives & tools",
+   "realname": "Benchmade/breacher knife"
+  },
+  {
+   "item": "BR_Knive_blk",
+   "category": "Knives & tools",
+   "note": "black variant"
+  },
+  {
+   "item": "BR_Knive_sdr",
+   "category": "Knives & tools",
+   "note": "_sdr variant"
+  },
+  {
+   "item": "BTV_1",
+   "category": "Plate carriers & vests",
+   "realname": "Crye Precision AVS/LBT low-vis vest (BTV)"
+  },
+  {
+   "item": "BackPanel BaseColor",
+   "category": "Shared camo panels",
+   "note": "shared rig back panel"
+  },
+  {
+   "item": "BackPanel BaseColor 1",
+   "category": "Shared camo panels",
+   "note": "Unity duplicate suffix"
+  },
+  {
+   "item": "BackPanel_AOR1",
+   "category": "Shared camo panels",
+   "note": "AOR1"
+  },
+  {
+   "item": "BackPanel_M81_BaseColor 1",
+   "category": "Shared camo panels",
+   "note": "M81 woodland, duplicate suffix"
+  },
+  {
+   "item": "BackPanel_MC_BaseColor",
+   "category": "Shared camo panels",
+   "note": "MultiCam"
+  },
+  {
+   "item": "BackPanel_RGreen_BaseColor",
+   "category": "Shared camo panels",
+   "note": "Ranger Green"
+  },
+  {
+   "item": "BangerPocket",
+   "category": "Pouches & admin",
+   "realname": "flashbang (banger) pouch"
+  },
+  {
+   "item": "BangerPocket MCB",
+   "category": "Pouches & admin",
+   "note": "MultiCam Black"
+  },
+  {
+   "item": "Blue",
+   "category": "Shared camo panels",
+   "note": "blue colourway token"
+  },
+  {
+   "item": "Bolt_Cutters",
+   "category": "Climbing & breaching",
+   "realname": "bolt cutters"
+  },
+  {
+   "item": "Bullet_556",
+   "category": "Other",
+   "realname": "5.56mm cartridge",
+   "note": "ammo prop"
+  },
+  {
+   "item": "CRYE_LS",
+   "category": "Tops & jackets",
+   "realname": "Crye Precision G3 Combat Shirt long sleeve"
+  },
+  {
+   "item": "CRYE_LS 1",
+   "category": "Tops & jackets",
+   "realname": "Crye G3 Combat Shirt",
+   "note": "Unity duplicate suffix"
+  },
+  {
+   "item": "CRYE_LS MCA",
+   "category": "Tops & jackets",
+   "note": "MultiCam Arid"
+  },
+  {
+   "item": "CRYE_LS MCB",
+   "category": "Tops & jackets",
+   "note": "MultiCam Black"
+  },
+  {
+   "item": "CRYE_LS_AOR1WORN",
+   "category": "Tops & jackets",
+   "note": "AOR1 worn"
+  },
+  {
+   "item": "CRYE_LS_DTS",
+   "category": "Tops & jackets",
+   "note": "DTS camo"
+  },
+  {
+   "item": "CRYE_LS_Flecktarn",
+   "category": "Tops & jackets",
+   "note": "Flecktarn"
+  },
+  {
+   "item": "CRYE_LS_Gray",
+   "category": "Tops & jackets",
+   "note": "gray"
+  },
+  {
+   "item": "CRYE_LS_M81",
+   "category": "Tops & jackets",
+   "note": "M81 woodland"
+  },
+  {
+   "item": "CRYE_LS_MCBWORN",
+   "category": "Tops & jackets",
+   "note": "MultiCam Black worn"
+  },
+  {
+   "item": "CRYE_LS_MCWORN",
+   "category": "Tops & jackets",
+   "note": "MultiCam worn"
+  },
+  {
+   "item": "CRYE_LS_Marpat",
+   "category": "Tops & jackets",
+   "note": "MARPAT"
+  },
+  {
+   "item": "CRYE_LS_Marpat 1",
+   "category": "Tops & jackets",
+   "note": "MARPAT, duplicate suffix"
+  },
+  {
+   "item": "CRYE_LS_RG",
+   "category": "Tops & jackets",
+   "note": "Ranger Green"
+  },
+  {
+   "item": "CRYE_LS_Tropic",
+   "category": "Tops & jackets",
+   "note": "MultiCam Tropic"
+  },
+  {
+   "item": "Carabiners_Ferro_DMM_XSRE_03",
+   "category": "Climbing & breaching",
+   "realname": "DMM XSRE carabiner on Ferro Concepts hardware"
+  },
+  {
+   "item": "Chris",
+   "category": "Other",
+   "note": "artist placeholder name"
+  },
+  {
+   "item": "Comntacts",
+   "category": "Ear protection & comms",
+   "realname": "Comtacs (Peltor ComTac headset)",
+   "note": "misspelled"
+  },
+  {
+   "item": "D3CRX_V1_AOR1",
+   "category": "Chest rigs & placards",
+   "realname": "Spiritus Systems D3CRX chest rig",
+   "note": "AOR1"
+  },
+  {
+   "item": "D3CRX_V1_BLK",
+   "category": "Chest rigs & placards",
+   "realname": "Spiritus Systems D3CRX",
+   "note": "black"
+  },
+  {
+   "item": "D3CRX_V1_OD",
+   "category": "Chest rigs & placards",
+   "realname": "Spiritus Systems D3CRX",
+   "note": "OD green"
+  },
+  {
+   "item": "D3CRX_V1_OD 1",
+   "category": "Chest rigs & placards",
+   "realname": "Spiritus Systems D3CRX",
+   "note": "OD, duplicate suffix"
+  },
+  {
+   "item": "D3CRX_V2_AOR1",
+   "category": "Chest rigs & placards",
+   "realname": "Spiritus Systems D3CRX",
+   "note": "AOR1"
+  },
+  {
+   "item": "D3CRX_V2_BLK",
+   "category": "Chest rigs & placards",
+   "realname": "Spiritus Systems D3CRX",
+   "note": "black"
+  },
+  {
+   "item": "D3CRX_V2_Black.001 2",
+   "category": "Chest rigs & placards",
+   "realname": "Spiritus Systems D3CRX",
+   "note": "black, duplicate suffixes"
+  },
+  {
+   "item": "D3CRX_V2_MC",
+   "category": "Chest rigs & placards",
+   "realname": "Spiritus Systems D3CRX",
+   "note": "MultiCam"
+  },
+  {
+   "item": "D3CRX_V2_OD",
+   "category": "Chest rigs & placards",
+   "realname": "Spiritus Systems D3CRX",
+   "note": "OD green"
+  },
+  {
+   "item": "Dangler",
+   "category": "Pouches & admin",
+   "realname": "Ferro Concepts Dangler pouch"
+  },
+  {
+   "item": "Dangler MCB",
+   "category": "Pouches & admin",
+   "realname": "Ferro Concepts Dangler pouch",
+   "note": "MultiCam Black variant"
+  },
+  {
+   "item": "ESS_Crossbow_Black",
+   "category": "Eyewear",
+   "realname": "ESS Crossbow ballistic glasses",
+   "note": "black frame"
+  },
+  {
+   "item": "ESS_Crossbow_FDE",
+   "category": "Eyewear",
+   "realname": "ESS Crossbow ballistic glasses",
+   "note": "FDE frame"
+  },
+  {
+   "item": "ESS_Crossbow_Lens_Black",
+   "category": "Eyewear",
+   "realname": "ESS Crossbow lens",
+   "note": "smoke lens material"
+  },
+  {
+   "item": "ESS_Crossbow_Lens_Black Dark",
+   "category": "Eyewear",
+   "realname": "ESS Crossbow lens",
+   "note": "dark lens; Unity duplicate-style suffix"
+  },
+  {
+   "item": "ESS_Crossbow_Lens_Orange",
+   "category": "Eyewear",
+   "realname": "ESS Crossbow hi-def copper/orange lens"
+  },
+  {
+   "item": "Eye",
+   "category": "Body / base mesh",
+   "realname": "character eye"
+  },
+  {
+   "item": "FCarabiners_Ferro_DMM_XSRE_01",
+   "category": "Climbing & breaching",
+   "realname": "DMM XSRE carabiner on Ferro Concepts gear"
+  },
+  {
+   "item": "FCarabiners_Ferro_DMM_XSRE_03",
+   "category": "Climbing & breaching",
+   "realname": "DMM XSRE carabiner on Ferro Concepts gear"
+  },
+  {
+   "item": "FDE",
+   "category": "Shared camo panels",
+   "note": "Flat Dark Earth colour token only"
+  },
+  {
+   "item": "Ferro_Dangler_BLK",
+   "category": "Pouches & admin",
+   "realname": "Ferro Concepts Dangler pouch",
+   "note": "black"
+  },
+  {
+   "item": "Ferro_Dangler_MC",
+   "category": "Pouches & admin",
+   "realname": "Ferro Concepts Dangler pouch",
+   "note": "MultiCam"
+  },
+  {
+   "item": "Ferro_Dangler_MC 1",
+   "category": "Pouches & admin",
+   "realname": "Ferro Concepts Dangler pouch",
+   "note": "MultiCam; Unity duplicate-name suffix"
+  },
+  {
+   "item": "Ferro_Dangler_OD",
+   "category": "Pouches & admin",
+   "realname": "Ferro Concepts Dangler pouch",
+   "note": "olive drab"
+  },
+  {
+   "item": "Ferro_MiniDangler",
+   "category": "Pouches & admin",
+   "realname": "Ferro Concepts Mini Dangler pouch"
+  },
+  {
+   "item": "Ferro_MiniDangler_AOR1",
+   "category": "Pouches & admin",
+   "realname": "Ferro Concepts Mini Dangler pouch",
+   "note": "AOR1"
+  },
+  {
+   "item": "Ferro_MiniDangler_OCP",
+   "category": "Pouches & admin",
+   "realname": "Ferro Concepts Mini Dangler pouch",
+   "note": "OCP/Scorpion W2"
+  },
+  {
+   "item": "Ferro_Slickster_MC",
+   "category": "Plate carriers & vests",
+   "realname": "Ferro Concepts Slickster plate carrier",
+   "note": "MultiCam"
+  },
+  {
+   "item": "Frag",
+   "category": "Pouches & admin",
+   "realname": "frag grenade pouch"
+  },
+  {
+   "item": "Frag MCB",
+   "category": "Pouches & admin",
+   "realname": "frag grenade pouch",
+   "note": "MultiCam Black"
+  },
+  {
+   "item": "Fuel_Modlite_Rifle_Light",
+   "category": "Other",
+   "realname": "Modlite weapon light (Modlite OKW/PLHv2) body material",
+   "note": "weapon accessory asset in character set"
+  },
+  {
+   "item": "G17",
+   "category": "Belts & holsters",
+   "realname": "Glock 17 carried in holster on the rig"
+  },
+  {
+   "item": "GP_v1",
+   "category": "Pouches & admin",
+   "realname": "general purpose (GP) pouch v1"
+  },
+  {
+   "item": "GP_v1 2",
+   "category": "Pouches & admin",
+   "realname": "general purpose pouch v1",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "GP_v1_AOR",
+   "category": "Pouches & admin",
+   "realname": "general purpose pouch v1",
+   "note": "AOR camo"
+  },
+  {
+   "item": "GP_v1_AOR1",
+   "category": "Pouches & admin",
+   "realname": "general purpose pouch v1",
+   "note": "AOR1"
+  },
+  {
+   "item": "GP_v1_AOR2",
+   "category": "Pouches & admin",
+   "realname": "general purpose pouch v1",
+   "note": "AOR2"
+  },
+  {
+   "item": "GP_v1_BLK",
+   "category": "Pouches & admin",
+   "realname": "general purpose pouch v1",
+   "note": "black"
+  },
+  {
+   "item": "GP_v1_MC 1",
+   "category": "Pouches & admin",
+   "realname": "general purpose pouch v1",
+   "note": "MultiCam; duplicate-name suffix"
+  },
+  {
+   "item": "GP_v1_MCB",
+   "category": "Pouches & admin",
+   "realname": "general purpose pouch v1",
+   "note": "MultiCam Black"
+  },
+  {
+   "item": "GP_v1_OD",
+   "category": "Pouches & admin",
+   "realname": "general purpose pouch v1",
+   "note": "olive drab"
+  },
+  {
+   "item": "GP_v1_sdr",
+   "category": "Pouches & admin",
+   "realname": "general purpose pouch v1",
+   "note": "'sdr' shader/variant suffix"
+  },
+  {
+   "item": "GP_v1_sdr 1",
+   "category": "Pouches & admin",
+   "realname": "general purpose pouch v1",
+   "note": "'sdr' variant; duplicate-name suffix"
+  },
+  {
+   "item": "Gray",
+   "category": "Shared camo panels",
+   "note": "colour token only"
+  },
+  {
+   "item": "Greem",
+   "category": "Shared camo panels",
+   "note": "colour token only, misspelling of 'Green'"
+  },
+  {
+   "item": "GreyFox",
+   "category": "Other",
+   "note": "unidentified; likely a colourway/callsign token"
+  },
+  {
+   "item": "Head",
+   "category": "Body / base mesh",
+   "realname": "character head mesh"
+  },
+  {
+   "item": "Heli_Tether",
+   "category": "Climbing & breaching",
+   "realname": "helicopter safety tether/lanyard"
+  },
+  {
+   "item": "Heli_Tether 1",
+   "category": "Climbing & breaching",
+   "realname": "helicopter safety tether/lanyard",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "Jeans_LEVIS",
+   "category": "Pants & legwear",
+   "realname": "Levi's jeans"
+  },
+  {
+   "item": "Jeans_LEVIS 1",
+   "category": "Pants & legwear",
+   "realname": "Levi's jeans",
+   "note": "duplicate-name suffix"
+  },
+  {
+   "item": "Jeans_LEVIS 2",
+   "category": "Pants & legwear",
+   "realname": "Levi's jeans",
+   "note": "duplicate-name suffix"
+  },
+  {
+   "item": "Jeans_LEVIS 3",
+   "category": "Pants & legwear",
+   "realname": "Levi's jeans",
+   "note": "duplicate-name suffix"
+  },
+  {
+   "item": "KAGWEKS_S7",
+   "category": "Helmet accessories",
+   "realname": "Kagwerks helmet shroud/mount (S7)",
+   "note": "artist misspelling of KAGWERKS"
+  },
+  {
+   "item": "KTAR",
+   "category": "Backpacks",
+   "realname": "Ferro Concepts KTAR back panel pack"
+  },
+  {
+   "item": "KTAR MCB",
+   "category": "Backpacks",
+   "realname": "Ferro Concepts KTAR back panel pack",
+   "note": "MultiCam Black"
+  },
+  {
+   "item": "Loins",
+   "category": "Body / base mesh",
+   "realname": "pelvis/groin body mesh region"
+  },
+  {
+   "item": "M4Pmag",
+   "category": "Pouches & admin",
+   "realname": "Magpul PMAG 5.56 magazine in mag pouch"
+  },
+  {
+   "item": "M4Pmag_sdr",
+   "category": "Pouches & admin",
+   "realname": "Magpul PMAG 5.56 magazine",
+   "note": "'sdr' shader/variant suffix"
+  },
+  {
+   "item": "M81",
+   "category": "Shared camo panels",
+   "note": "M81 Woodland camo token only"
+  },
+  {
+   "item": "MCB",
+   "category": "Shared camo panels",
+   "note": "MultiCam Black token only"
+  },
+  {
+   "item": "MICH_LC_AC",
+   "category": "Helmets & head",
+   "realname": "MICH 2000/2001 helmet, low-cut",
+   "note": "AC variant token"
+  },
+  {
+   "item": "MICH_LC_Painted",
+   "category": "Helmets & head",
+   "realname": "MICH helmet, low-cut, painted finish"
+  },
+  {
+   "item": "MICH_LC_Painted 1",
+   "category": "Helmets & head",
+   "realname": "MICH helmet, low-cut, painted",
+   "note": "duplicate-name suffix"
+  },
+  {
+   "item": "MICH_LC_Painted 2",
+   "category": "Helmets & head",
+   "realname": "MICH helmet, low-cut, painted",
+   "note": "duplicate-name suffix"
+  },
+  {
+   "item": "MICH_LC_Painted 3",
+   "category": "Helmets & head",
+   "realname": "MICH helmet, low-cut, painted",
+   "note": "duplicate-name suffix"
+  },
+  {
+   "item": "MPU5",
+   "category": "Ear protection & comms",
+   "realname": "Persistent Systems MPU5 radio"
+  },
+  {
+   "item": "MPU5_BLK",
+   "category": "Ear protection & comms",
+   "realname": "Persistent Systems MPU5 radio",
+   "note": "black"
+  },
+  {
+   "item": "MPU5_MC",
+   "category": "Ear protection & comms",
+   "realname": "Persistent Systems MPU5 radio",
+   "note": "MultiCam"
+  },
+  {
+   "item": "MPU5_sdr",
+   "category": "Ear protection & comms",
+   "realname": "Persistent Systems MPU5 SDR radio",
+   "note": "sdr = colourway variant"
+  },
+  {
+   "item": "MPU5_sdr 1",
+   "category": "Ear protection & comms",
+   "realname": "Persistent Systems MPU5 SDR radio",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "MPU5_sdr ataks",
+   "category": "Ear protection & comms",
+   "realname": "Persistent Systems MPU5 SDR radio",
+   "note": "A-TACS camo variant"
+  },
+  {
+   "item": "MPU5_sdr vet",
+   "category": "Ear protection & comms",
+   "realname": "Persistent Systems MPU5 SDR radio",
+   "note": "colourway variant"
+  },
+  {
+   "item": "MSA1",
+   "category": "Ear protection & comms",
+   "realname": "MSA Sordin Supreme Pro headset"
+  },
+  {
+   "item": "Mag_20R",
+   "category": "Other",
+   "realname": "20-round rifle magazine",
+   "note": "weapon magazine, no matching category"
+  },
+  {
+   "item": "Mag_Magpul_Emag_BLK",
+   "category": "Other",
+   "realname": "Magpul EMAG magazine, black"
+  },
+  {
+   "item": "Mag_Magpul_PMAG_GEN3_M3_556_30_BLK",
+   "category": "Other",
+   "realname": "Magpul PMAG GEN3 M3 5.56 30rd, black"
+  },
+  {
+   "item": "Mag_Magpul_PMAG_GEN3_M3_556_30_Tan",
+   "category": "Other",
+   "realname": "Magpul PMAG GEN3 M3 5.56 30rd, tan"
+  },
+  {
+   "item": "Magpul_Emag",
+   "category": "Other",
+   "realname": "Magpul EMAG magazine"
+  },
+  {
+   "item": "MiniDangler",
+   "category": "Pouches & admin",
+   "realname": "Spiritus Systems Mini Dangler"
+  },
+  {
+   "item": "MiniDangler MCB",
+   "category": "Pouches & admin",
+   "realname": "Spiritus Systems Mini Dangler",
+   "note": "MultiCam Black"
+  },
+  {
+   "item": "Miscellaneous",
+   "category": "Other",
+   "note": "generic catch-all material"
+  },
+  {
+   "item": "Miscellaneous_01",
+   "category": "Other",
+   "note": "generic catch-all material"
+  },
+  {
+   "item": "Miscellaneous_01 1",
+   "category": "Other",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "Miscellaneous_01 2",
+   "category": "Other",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "Miscellaneous_01 3",
+   "category": "Other",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "Miscellaneous_01 4",
+   "category": "Other",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "Miscellaneous_01 MCB",
+   "category": "Other",
+   "note": "MultiCam Black variant of generic material"
+  },
+  {
+   "item": "Miscellaneous_01.001",
+   "category": "Other",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "Miscellaneous_02",
+   "category": "Other",
+   "note": "generic catch-all material"
+  },
+  {
+   "item": "Mount_G24_Wilcox_Tan",
+   "category": "Helmet accessories",
+   "realname": "Wilcox G24 NVG helmet mount, tan"
+  },
+  {
+   "item": "Mount_G24_Wilcox_Tan 1",
+   "category": "Helmet accessories",
+   "realname": "Wilcox G24 NVG helmet mount, tan",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "PBR_Miscellaneous_01",
+   "category": "Other",
+   "note": "generic PBR catch-all material"
+  },
+  {
+   "item": "PCU",
+   "category": "Tops & jackets",
+   "realname": "PCU (Protective Combat Uniform) Level 7 jacket"
+  },
+  {
+   "item": "PCU_FDE",
+   "category": "Tops & jackets",
+   "realname": "PCU Level 7 jacket",
+   "note": "flat dark earth"
+  },
+  {
+   "item": "PCU_Grey",
+   "category": "Tops & jackets",
+   "realname": "PCU Level 7 jacket",
+   "note": "grey"
+  },
+  {
+   "item": "PCU_Grey 1",
+   "category": "Tops & jackets",
+   "realname": "PCU Level 7 jacket",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "PCU_Grey 2",
+   "category": "Tops & jackets",
+   "realname": "PCU Level 7 jacket",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "PCU_OD",
+   "category": "Tops & jackets",
+   "realname": "PCU Level 7 jacket",
+   "note": "olive drab"
+  },
+  {
+   "item": "PMAG_556",
+   "category": "Other",
+   "realname": "Magpul PMAG 5.56 magazine"
+  },
+  {
+   "item": "PataFlannel",
+   "category": "Tops & jackets",
+   "realname": "Patagonia flannel shirt"
+  },
+  {
+   "item": "PataFlannel RED",
+   "category": "Tops & jackets",
+   "realname": "Patagonia flannel shirt",
+   "note": "red colourway"
+  },
+  {
+   "item": "Pistol",
+   "category": "Pouches & admin",
+   "realname": "single pistol magazine pouch"
+  },
+  {
+   "item": "Pistol Double",
+   "category": "Pouches & admin",
+   "realname": "double pistol magazine pouch"
+  },
+  {
+   "item": "Pistol Double MCB",
+   "category": "Pouches & admin",
+   "realname": "double pistol magazine pouch",
+   "note": "MultiCam Black"
+  },
+  {
+   "item": "Pistol MCB",
+   "category": "Pouches & admin",
+   "realname": "single pistol magazine pouch",
+   "note": "MultiCam Black"
+  },
+  {
+   "item": "PistolDouble",
+   "category": "Pouches & admin",
+   "realname": "double pistol magazine pouch"
+  },
+  {
+   "item": "PistolDouble 1",
+   "category": "Pouches & admin",
+   "realname": "double pistol magazine pouch",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "PistolDouble 2",
+   "category": "Pouches & admin",
+   "realname": "double pistol magazine pouch",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "PistolDouble MCB",
+   "category": "Pouches & admin",
+   "realname": "double pistol magazine pouch",
+   "note": "MultiCam Black"
+  },
+  {
+   "item": "Puch_Spud",
+   "category": "Pouches & admin",
+   "realname": "Spiritus Systems SPUD pouch",
+   "note": "'Puch' = artist misspelling of Pouch"
+  },
+  {
+   "item": "Puch_Spud_OD",
+   "category": "Pouches & admin",
+   "realname": "Spiritus Systems SPUD pouch",
+   "note": "olive drab"
+  },
+  {
+   "item": "Puch_Spud_OD 1",
+   "category": "Pouches & admin",
+   "realname": "Spiritus Systems SPUD pouch",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "Puch_Spud_OD 2",
+   "category": "Pouches & admin",
+   "realname": "Spiritus Systems SPUD pouch",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "Puch_Spud_OD 3",
+   "category": "Pouches & admin",
+   "realname": "Spiritus Systems SPUD pouch",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "Puch_Spud_sdr",
+   "category": "Pouches & admin",
+   "realname": "Spiritus Systems SPUD pouch",
+   "note": "sdr colourway"
+  },
+  {
+   "item": "Puch_Spud_sdr 1",
+   "category": "Pouches & admin",
+   "realname": "Spiritus Systems SPUD pouch",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "RG",
+   "category": "Shared camo panels",
+   "note": "Ranger Green colour token only"
+  },
+  {
+   "item": "ROLL1",
+   "category": "Pouches & admin",
+   "realname": "roll-up dump pouch"
+  },
+  {
+   "item": "ROLL1 MCB",
+   "category": "Pouches & admin",
+   "realname": "roll-up dump pouch",
+   "note": "MultiCam Black"
+  },
+  {
+   "item": "Roll1",
+   "category": "Pouches & admin",
+   "realname": "roll-up dump pouch"
+  },
+  {
+   "item": "Roll1_blk",
+   "category": "Pouches & admin",
+   "realname": "roll-up dump pouch",
+   "note": "black"
+  },
+  {
+   "item": "Roll1_coyoe",
+   "category": "Pouches & admin",
+   "realname": "roll-up dump pouch",
+   "note": "coyote, misspelled"
+  },
+  {
+   "item": "Roll1_sdr",
+   "category": "Pouches & admin",
+   "realname": "roll-up dump pouch",
+   "note": "sdr colourway"
+  },
+  {
+   "item": "Roll1_sdr 1",
+   "category": "Pouches & admin",
+   "realname": "roll-up dump pouch",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "SIG_M17_MAG",
+   "category": "Other",
+   "realname": "SIG Sauer M17 pistol magazine"
+  },
+  {
+   "item": "SOTR",
+   "category": "Face & mask",
+   "realname": "Ops-Core SOTR (Special Operations Tactical Respirator)"
+  },
+  {
+   "item": "Safran_ECOTI",
+   "category": "NVG",
+   "realname": "Safran ECOTI clip-on thermal imager"
+  },
+  {
+   "item": "Seal Team",
+   "category": "Patches & insignia",
+   "realname": "SEAL Team unit patch"
+  },
+  {
+   "item": "Shingle",
+   "category": "Chest rigs & placards",
+   "realname": "Spiritus Systems Micro Fight Shingle placard"
+  },
+  {
+   "item": "Shingle MCB",
+   "category": "Chest rigs & placards",
+   "realname": "Spiritus Systems Shingle placard",
+   "note": "MultiCam Black camo variant"
+  },
+  {
+   "item": "Strap",
+   "category": "Other",
+   "note": "generic strap/webbing material"
+  },
+  {
+   "item": "SuperHighCut",
+   "category": "Helmets & head",
+   "realname": "Team Wendy/Ops-Core style super high cut ballistic helmet"
+  },
+  {
+   "item": "SuperHighCut_AC_blk",
+   "category": "Helmets & head",
+   "realname": "Super high cut helmet with ARC rails",
+   "note": "black colourway"
+  },
+  {
+   "item": "SuperHighCut_Ac",
+   "category": "Helmets & head",
+   "realname": "Super high cut helmet, ARC rail variant"
+  },
+  {
+   "item": "SuperHighCut_Ac 1",
+   "category": "Helmets & head",
+   "realname": "Super high cut helmet, ARC rail variant",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "SuperHighCut_MC",
+   "category": "Helmets & head",
+   "realname": "Super high cut helmet",
+   "note": "MultiCam variant"
+  },
+  {
+   "item": "TBAS_V5_sdr",
+   "category": "Ear protection & comms",
+   "realname": "TEA/Thales tactical bone-conduction headset with SDR radio"
+  },
+  {
+   "item": "TBAS_V5_sdr 1",
+   "category": "Ear protection & comms",
+   "realname": "TEA tactical headset with SDR radio",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "TEAR",
+   "category": "Chest rigs & placards",
+   "realname": "Ferro Concepts/tear-away placard"
+  },
+  {
+   "item": "TEAR MCB",
+   "category": "Chest rigs & placards",
+   "realname": "tear-away placard",
+   "note": "MultiCam Black"
+  },
+  {
+   "item": "TEAR_FF",
+   "category": "Chest rigs & placards",
+   "realname": "Ferro Concepts tear-away flat placard"
+  },
+  {
+   "item": "TEAR_FF_AOR1",
+   "category": "Chest rigs & placards",
+   "realname": "Ferro Concepts tear-away placard",
+   "note": "AOR1 camo"
+  },
+  {
+   "item": "TEAR_FF_MC",
+   "category": "Chest rigs & placards",
+   "realname": "Ferro Concepts tear-away placard",
+   "note": "MultiCam"
+  },
+  {
+   "item": "TEAR_FF_OCP",
+   "category": "Chest rigs & placards",
+   "realname": "Ferro Concepts tear-away placard",
+   "note": "OCP/Scorpion W2 camo"
+  },
+  {
+   "item": "TenSpeed",
+   "category": "Pouches & admin",
+   "realname": "Blue Force Gear Ten-Speed magazine pouch"
+  },
+  {
+   "item": "TenSpeed MCB",
+   "category": "Pouches & admin",
+   "realname": "Blue Force Gear Ten-Speed pouch",
+   "note": "MultiCam Black"
+  },
+  {
+   "item": "TrellisWare_sdr",
+   "category": "Ear protection & comms",
+   "realname": "TrellisWare TSM radio (SDR)"
+  },
+  {
+   "item": "Triple",
+   "category": "Chest rigs & placards",
+   "realname": "triple mag placard/shingle"
+  },
+  {
+   "item": "USA",
+   "category": "Patches & insignia",
+   "realname": "US flag patch"
+  },
+  {
+   "item": "UnloadingCamo MCB",
+   "category": "Pouches & admin",
+   "realname": "dump/unloading pouch",
+   "note": "MultiCam Black"
+  },
+  {
+   "item": "UnloadingCamoA",
+   "category": "Pouches & admin",
+   "realname": "dump/unloading pouch",
+   "note": "camo variant A"
+  },
+  {
+   "item": "UnloadingCamoD",
+   "category": "Pouches & admin",
+   "realname": "dump/unloading pouch",
+   "note": "camo variant D"
+  },
+  {
+   "item": "UnloadingColorD",
+   "category": "Pouches & admin",
+   "realname": "dump/unloading pouch",
+   "note": "solid colourway D"
+  },
+  {
+   "item": "UnloadingColorE",
+   "category": "Pouches & admin",
+   "realname": "dump/unloading pouch",
+   "note": "solid colourway E"
+  },
+  {
+   "item": "UnloadingColorF",
+   "category": "Pouches & admin",
+   "realname": "dump/unloading pouch",
+   "note": "solid colourway F"
+  },
+  {
+   "item": "UnloadingColorI",
+   "category": "Pouches & admin",
+   "realname": "dump/unloading pouch",
+   "note": "solid colourway I"
+  },
+  {
+   "item": "UnloadingColorI 1",
+   "category": "Pouches & admin",
+   "realname": "dump/unloading pouch",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "Vet",
+   "category": "Patches & insignia",
+   "realname": "veteran morale patch"
+  },
+  {
+   "item": "Vet MCB",
+   "category": "Patches & insignia",
+   "realname": "veteran morale patch",
+   "note": "MultiCam Black variant"
+  },
+  {
+   "item": "Walkers_Razor",
+   "category": "Ear protection & comms",
+   "realname": "Walker's Razor Slim electronic earmuffs"
+  },
+  {
+   "item": "Willy",
+   "category": "Patches & insignia",
+   "note": "morale patch artwork"
+  },
+  {
+   "item": "amarurgt SDF Material",
+   "category": "Patches & insignia",
+   "note": "signed-distance-field text material for patch lettering"
+  },
+  {
+   "item": "aviators",
+   "category": "Eyewear",
+   "realname": "aviator sunglasses"
+  },
+  {
+   "item": "bandana",
+   "category": "Face & mask"
+  },
+  {
+   "item": "bigmamashouse",
+   "category": "Patches & insignia",
+   "note": "morale patch artwork"
+  },
+  {
+   "item": "comntacts_sdr",
+   "category": "Ear protection & comms",
+   "realname": "comms headset/radio (misspelled 'comtacs')"
+  },
+  {
+   "item": "docminty",
+   "category": "Patches & insignia",
+   "note": "morale patch artwork"
+  },
+  {
+   "item": "dope",
+   "category": "Pouches & admin",
+   "realname": "DOPE card / data card",
+   "note": "admin data card"
+  },
+  {
+   "item": "glowstick",
+   "category": "Knives & tools",
+   "realname": "chemlight"
+  },
+  {
+   "item": "lenses",
+   "category": "Eyewear",
+   "realname": "eyewear lens material"
+  },
+  {
+   "item": "lenses 1",
+   "category": "Eyewear",
+   "realname": "eyewear lens material",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "middle east",
+   "category": "Patches & insignia",
+   "note": "morale patch artwork"
+  },
+  {
+   "item": "nikkkooooooootirz",
+   "category": "Patches & insignia",
+   "note": "morale patch artwork, artist joke name"
+  },
+  {
+   "item": "red",
+   "category": "Shared camo panels",
+   "note": "solid red colour token"
+  },
+  {
+   "item": "red 1",
+   "category": "Shared camo panels",
+   "note": "solid red colour token, Unity duplicate-name suffix"
+  },
+  {
+   "item": "stupid",
+   "category": "Patches & insignia",
+   "note": "morale patch artwork"
+  },
+  {
+   "item": "sygic",
+   "category": "Patches & insignia",
+   "note": "morale patch artwork"
+  },
+  {
+   "item": "syko",
+   "category": "Patches & insignia",
+   "note": "morale patch artwork"
+  },
+  {
+   "item": "tape",
+   "category": "Helmet accessories",
+   "note": "helmet/gear tape material"
+  },
+  {
+   "item": "tape 1",
+   "category": "Helmet accessories",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "usa ir",
+   "category": "Patches & insignia",
+   "realname": "IR US flag patch"
+  },
+  {
+   "item": "waterboardinginstructor",
+   "category": "Patches & insignia",
+   "note": "morale patch artwork"
+  },
+  {
+   "item": "wile e",
+   "category": "Patches & insignia",
+   "note": "morale patch artwork"
+  },
+  {
+   "item": "Brown",
+   "category": "Shared camo panels",
+   "note": "brown colour token"
+  }
+ ],
+ "weapon": [
+  {
+   "item": "1",
+   "category": "Other",
+   "note": "bare numeric token, unidentifiable/placeholder"
+  },
+  {
+   "item": "10_5",
+   "category": "Barrels",
+   "realname": "10.5 inch barrel"
+  },
+  {
+   "item": "10_5 1",
+   "category": "Barrels",
+   "realname": "10.5 inch barrel",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "10_5 2",
+   "category": "Barrels",
+   "realname": "10.5 inch barrel",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "12_5",
+   "category": "Barrels",
+   "realname": "12.5 inch barrel"
+  },
+  {
+   "item": "12_5 1",
+   "category": "Barrels",
+   "realname": "12.5 inch barrel",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "12_5 2",
+   "category": "Barrels",
+   "realname": "12.5 inch barrel",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "13",
+   "category": "Barrels",
+   "realname": "13 inch barrel"
+  },
+  {
+   "item": "13 1",
+   "category": "Barrels",
+   "realname": "13 inch barrel",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "13 2",
+   "category": "Barrels",
+   "realname": "13 inch barrel",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "30mmMount",
+   "category": "Mounts & rings",
+   "realname": "30mm scope ring/mount"
+  },
+  {
+   "item": "416A5",
+   "category": "Receivers & bodies",
+   "realname": "HK416A5 receiver"
+  },
+  {
+   "item": "525pm2",
+   "category": "Optics & sights",
+   "realname": "Schmidt & Bender 5-25x56 PM II"
+  },
+  {
+   "item": "525pm2_rearglass",
+   "category": "Reticles & scope glass",
+   "realname": "S&B PM II ocular glass",
+   "note": "shared glass/reticle material"
+  },
+  {
+   "item": "6L31_545x39",
+   "category": "Magazines",
+   "realname": "6L31 30-rd 5.45x39 AK-74 magazine"
+  },
+  {
+   "item": "870_Forend_1",
+   "category": "Shotgun parts",
+   "realname": "Remington 870 forend"
+  },
+  {
+   "item": "870_Forend_1 1",
+   "category": "Shotgun parts",
+   "realname": "Remington 870 forend",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "870_Forend_2",
+   "category": "Shotgun parts",
+   "realname": "Remington 870 forend"
+  },
+  {
+   "item": "870_Forend_2 1",
+   "category": "Shotgun parts",
+   "realname": "Remington 870 forend",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "870_Forend_3",
+   "category": "Shotgun parts",
+   "realname": "Remington 870 forend"
+  },
+  {
+   "item": "870_Forend_3 1",
+   "category": "Shotgun parts",
+   "realname": "Remington 870 forend",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "870_Forend_4",
+   "category": "Shotgun parts",
+   "realname": "Remington 870 forend"
+  },
+  {
+   "item": "870_Forend_5",
+   "category": "Shotgun parts",
+   "realname": "Remington 870 forend"
+  },
+  {
+   "item": "870_Forend_5 1",
+   "category": "Shotgun parts",
+   "realname": "Remington 870 forend",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "870_Forend_6",
+   "category": "Shotgun parts",
+   "realname": "Remington 870 forend"
+  },
+  {
+   "item": "870_Forend_6 1",
+   "category": "Shotgun parts",
+   "realname": "Remington 870 forend",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "870_Sights",
+   "category": "Iron sights",
+   "realname": "Remington 870 bead/rifle sights"
+  },
+  {
+   "item": "870_Sights 1",
+   "category": "Iron sights",
+   "realname": "Remington 870 sights",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "919_Case.001",
+   "category": "Ammunition & shells",
+   "realname": "9x19mm cartridge case",
+   "note": ".001 duplicate suffix"
+  },
+  {
+   "item": "9_5",
+   "category": "Barrels",
+   "realname": "9.5 inch barrel"
+  },
+  {
+   "item": "9_5 1",
+   "category": "Barrels",
+   "realname": "9.5 inch barrel",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "9_5 2",
+   "category": "Barrels",
+   "realname": "9.5 inch barrel",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "AACHB_03",
+   "category": "Suppressors & muzzle",
+   "realname": "AAC (Advanced Armament Corp) suppressor/muzzle device"
+  },
+  {
+   "item": "AK74_sdr",
+   "category": "Suppressors & muzzle",
+   "realname": "AK-74 muzzle device / sound reducer",
+   "note": "_sdr suffix shared with other muzzle devices"
+  },
+  {
+   "item": "AK_AR15Adapter",
+   "category": "Stocks & buffers",
+   "realname": "AK-to-AR15 stock adapter"
+  },
+  {
+   "item": "AK_HG_AKM",
+   "category": "Handguards & rails",
+   "realname": "AKM wood handguard"
+  },
+  {
+   "item": "AK_HG_Dong",
+   "category": "Handguards & rails",
+   "realname": "AK handguard variant"
+  },
+  {
+   "item": "AK_Mount",
+   "category": "Mounts & rings",
+   "realname": "AK side-rail optic mount"
+  },
+  {
+   "item": "AK_RearSight",
+   "category": "Iron sights",
+   "realname": "AK rear tangent sight"
+  },
+  {
+   "item": "AK_cover_PDC",
+   "category": "Receivers & bodies",
+   "realname": "AK railed dust cover"
+  },
+  {
+   "item": "APC9 Pro",
+   "category": "Receivers & bodies",
+   "realname": "B&T APC9 Pro"
+  },
+  {
+   "item": "APL",
+   "category": "Lights & lasers",
+   "realname": "Streamlight TLR-style APL pistol light"
+  },
+  {
+   "item": "B.A.D_Lever_AR15",
+   "category": "Charging handles & controls",
+   "realname": "Magpul B.A.D. Lever"
+  },
+  {
+   "item": "B30B31c",
+   "category": "Other",
+   "note": "likely Zenitco B-30/B-31 handguard set but token ambiguous"
+  },
+  {
+   "item": "B33",
+   "category": "Receivers & bodies",
+   "realname": "Zenitco B-33 railed AK dust cover"
+  },
+  {
+   "item": "B_13_sdr",
+   "category": "Suppressors & muzzle",
+   "realname": "Zenitco B-13 style muzzle device",
+   "note": "_sdr suffix"
+  },
+  {
+   "item": "Black",
+   "category": "Other",
+   "note": "colour token: black"
+  },
+  {
+   "item": "CAG 10-5",
+   "category": "Barrels",
+   "realname": "CAG-spec 10.5 inch barrel"
+  },
+  {
+   "item": "CAG 14-5",
+   "category": "Barrels",
+   "realname": "CAG-spec 14.5 inch barrel"
+  },
+  {
+   "item": "CRC_1U040",
+   "category": "Stocks & buffers",
+   "realname": "Zenitco CRC-1U040 cheek rest/stock"
+  },
+  {
+   "item": "Chassis_AICSClassic2",
+   "category": "Chassis & stocks (precision)",
+   "realname": "Accuracy International AICS Classic chassis"
+  },
+  {
+   "item": "Chassis_MDTESS",
+   "category": "Chassis & stocks (precision)",
+   "realname": "MDT ESS chassis"
+  },
+  {
+   "item": "Chassis_McMillanA5",
+   "category": "Chassis & stocks (precision)",
+   "realname": "McMillan A5 stock"
+  },
+  {
+   "item": "D-60",
+   "category": "Magazines",
+   "realname": "Magpul D-60 60-rd drum"
+  },
+  {
+   "item": "DD_Handgaurd",
+   "category": "Handguards & rails",
+   "realname": "Daniel Defense handguard",
+   "note": "artist misspelling 'Handgaurd'"
+  },
+  {
+   "item": "DD_MK18",
+   "category": "Handguards & rails",
+   "realname": "Daniel Defense MK18 RIS II rail"
+  },
+  {
+   "item": "DTK_PUTNIK_sdr",
+   "category": "Suppressors & muzzle",
+   "realname": "DTK Putnik muzzle brake"
+  },
+  {
+   "item": "Default 1",
+   "category": "Other",
+   "note": "placeholder default material, Unity duplicate suffix"
+  },
+  {
+   "item": "Distortion",
+   "category": "VFX / distortion",
+   "note": "heat-haze/distortion shader material"
+  },
+  {
+   "item": "EFR",
+   "category": "Other"
+  },
+  {
+   "item": "EXPS3",
+   "category": "Optics & sights",
+   "realname": "EOTech EXPS3 holographic sight"
+  },
+  {
+   "item": "EXPS3 1",
+   "category": "Optics & sights",
+   "realname": "EOTech EXPS3",
+   "note": "Unity duplicate suffix"
+  },
+  {
+   "item": "EXPS3 2",
+   "category": "Optics & sights",
+   "realname": "EOTech EXPS3",
+   "note": "Unity duplicate suffix"
+  },
+  {
+   "item": "EXPS3 3",
+   "category": "Optics & sights",
+   "realname": "EOTech EXPS3",
+   "note": "Unity duplicate suffix"
+  },
+  {
+   "item": "EraTacOne30mm",
+   "category": "Mounts & rings",
+   "realname": "ERA-TAC one-piece 30mm scope mount"
+  },
+  {
+   "item": "Exps3",
+   "category": "Optics & sights",
+   "realname": "EOTech EXPS3"
+  },
+  {
+   "item": "Extension",
+   "category": "Magazines",
+   "realname": "magazine baseplate extension"
+  },
+  {
+   "item": "Extension 1",
+   "category": "Magazines",
+   "realname": "magazine extension",
+   "note": "Unity duplicate suffix"
+  },
+  {
+   "item": "Extension 2",
+   "category": "Magazines",
+   "realname": "magazine extension",
+   "note": "Unity duplicate suffix"
+  },
+  {
+   "item": "Extension 3",
+   "category": "Magazines",
+   "realname": "magazine extension",
+   "note": "Unity duplicate suffix"
+  },
+  {
+   "item": "F2000",
+   "category": "Receivers & bodies",
+   "realname": "FN F2000 bullpup rifle body"
+  },
+  {
+   "item": "FF RAS 5",
+   "category": "Handguards & rails",
+   "realname": "Daniel Defense free-float RAS rail"
+  },
+  {
+   "item": "FSG2",
+   "category": "Grips & foregrips",
+   "realname": "Magpul/BCM style forward grip variant"
+  },
+  {
+   "item": "FX19",
+   "category": "Receivers & bodies",
+   "realname": "Freedom Ordnance / FX-19 pistol body"
+  },
+  {
+   "item": "FX19 GRY",
+   "category": "Receivers & bodies",
+   "realname": "FX-19",
+   "note": "grey colourway"
+  },
+  {
+   "item": "FX19 Golden",
+   "category": "Receivers & bodies",
+   "realname": "FX-19",
+   "note": "gold colourway"
+  },
+  {
+   "item": "FX19 MCB",
+   "category": "Receivers & bodies",
+   "realname": "FX-19",
+   "note": "MultiCam Black camo"
+  },
+  {
+   "item": "Feer",
+   "category": "Other",
+   "note": "likely misspelling, unidentifiable"
+  },
+  {
+   "item": "Flame1",
+   "category": "VFX / distortion",
+   "realname": "muzzle flash VFX"
+  },
+  {
+   "item": "Flame2",
+   "category": "VFX / distortion",
+   "realname": "muzzle flash VFX"
+  },
+  {
+   "item": "G27k",
+   "category": "Receivers & bodies",
+   "realname": "Glock 27 subcompact"
+  },
+  {
+   "item": "G28",
+   "category": "Receivers & bodies",
+   "realname": "HK G28 DMR body"
+  },
+  {
+   "item": "G33",
+   "category": "Optics & sights",
+   "realname": "EOTech G33 magnifier"
+  },
+  {
+   "item": "G33 1",
+   "category": "Optics & sights",
+   "realname": "EOTech G33 magnifier",
+   "note": "Unity duplicate suffix"
+  },
+  {
+   "item": "G33_FTS_Mount",
+   "category": "Mounts & rings",
+   "realname": "EOTech G33 flip-to-side mount"
+  },
+  {
+   "item": "G33_Rear_Glass_RT",
+   "category": "Reticles & scope glass",
+   "realname": "G33 magnifier rear glass"
+  },
+  {
+   "item": "G33_lens",
+   "category": "Reticles & scope glass",
+   "realname": "G33 magnifier lens"
+  },
+  {
+   "item": "GLOCK17_FrontSight",
+   "category": "Iron sights",
+   "realname": "Glock 17 front sight"
+  },
+  {
+   "item": "GLOCK17_FrontSight 1",
+   "category": "Iron sights",
+   "realname": "Glock 17 front sight",
+   "note": "Unity duplicate suffix"
+  },
+  {
+   "item": "GLOCK17_RearSight",
+   "category": "Iron sights",
+   "realname": "Glock 17 rear sight"
+  },
+  {
+   "item": "GMOD3",
+   "category": "Suppressors & muzzle",
+   "realname": "Gemtech GMT-300BLK / G-MOD suppressor"
+  },
+  {
+   "item": "GMOD3 1",
+   "category": "Suppressors & muzzle",
+   "realname": "G-MOD suppressor",
+   "note": "Unity duplicate suffix"
+  },
+  {
+   "item": "Gen5_Rear_Sight",
+   "category": "Iron sights",
+   "realname": "Glock Gen5 rear sight"
+  },
+  {
+   "item": "Glock_19x_Ext",
+   "category": "Receivers & bodies",
+   "realname": "Glock 19X slide/frame extension part"
+  },
+  {
+   "item": "Glock_19x_Ext 1",
+   "category": "Receivers & bodies",
+   "realname": "Glock 19X",
+   "note": "Unity duplicate suffix"
+  },
+  {
+   "item": "Glock_19x_Main",
+   "category": "Receivers & bodies",
+   "realname": "Glock 19X main body"
+  },
+  {
+   "item": "Glock_19x_Main 1",
+   "category": "Receivers & bodies",
+   "realname": "Glock 19X main body",
+   "note": "Unity duplicate suffix"
+  },
+  {
+   "item": "Glock_45",
+   "category": "Receivers & bodies",
+   "realname": "Glock 45 pistol body"
+  },
+  {
+   "item": "Glock_45 1",
+   "category": "Receivers & bodies",
+   "realname": "Glock 45",
+   "note": "Unity duplicate suffix"
+  },
+  {
+   "item": "HG_Shark",
+   "category": "Handguards & rails",
+   "realname": "shark-mouth style handguard"
+  },
+  {
+   "item": "HG_WOOD74",
+   "category": "Handguards & rails",
+   "realname": "AK-74 wood handguard"
+  },
+  {
+   "item": "HK416",
+   "category": "Receivers & bodies",
+   "realname": "HK416 receiver"
+  },
+  {
+   "item": "HK416 1",
+   "category": "Receivers & bodies",
+   "realname": "HK416 receiver",
+   "note": "Unity duplicate suffix"
+  },
+  {
+   "item": "HK416 2",
+   "category": "Receivers & bodies",
+   "realname": "HK416 receiver",
+   "note": "Unity duplicate suffix"
+  },
+  {
+   "item": "HK416.001",
+   "category": "Receivers & bodies",
+   "realname": "HK416 receiver",
+   "note": "Blender/Unity duplicate suffix"
+  },
+  {
+   "item": "HK416SMR_10_5",
+   "category": "Handguards & rails",
+   "realname": "Geissele HK416 SMR rail, 10.5in"
+  },
+  {
+   "item": "HK416SMR_10_5 1",
+   "category": "Handguards & rails",
+   "realname": "HK416 SMR rail 10.5in",
+   "note": "Unity duplicate suffix"
+  },
+  {
+   "item": "HK416SMR_14_5",
+   "category": "Handguards & rails",
+   "realname": "Geissele HK416 SMR rail, 14.5in"
+  },
+  {
+   "item": "HK416SMR_14_5 1",
+   "category": "Handguards & rails",
+   "realname": "HK416 SMR rail 14.5in",
+   "note": "Unity duplicate suffix"
+  },
+  {
+   "item": "HK_HG_Quad",
+   "category": "Handguards & rails",
+   "realname": "HK quad-rail handguard"
+  },
+  {
+   "item": "HK_Rearsight",
+   "category": "Iron sights",
+   "realname": "HK diopter rear sight"
+  },
+  {
+   "item": "HK_USP45",
+   "category": "Receivers & bodies",
+   "realname": "HK USP45 pistol body"
+  },
+  {
+   "item": "HK_USP45_Tactical",
+   "category": "Receivers & bodies",
+   "realname": "HK USP45 Tactical"
+  },
+  {
+   "item": "HRF SKIFF",
+   "category": "Handguards & rails",
+   "realname": "High Roller Fabrication SKIFF handguard"
+  },
+  {
+   "item": "HRF SKIFF 1",
+   "category": "Handguards & rails",
+   "realname": "HRF SKIFF handguard",
+   "note": "Unity duplicate suffix"
+  },
+  {
+   "item": "HWS",
+   "category": "Optics & sights",
+   "realname": "EOTech Holographic Weapon Sight"
+  },
+  {
+   "item": "Hk416 10inch",
+   "category": "Barrels",
+   "realname": "HK416 10in barrel"
+  },
+  {
+   "item": "Illusion9",
+   "category": "Other",
+   "note": "possible weapon skin/pattern name"
+  },
+  {
+   "item": "IronSightBack_MBUS-Gen2",
+   "category": "Iron sights",
+   "realname": "Magpul MBUS Gen2 rear back-up sight"
+  },
+  {
+   "item": "IronSightFront_MBUS-Gen2",
+   "category": "Iron sights",
+   "realname": "Magpul MBUS Gen2 front backup sight"
+  },
+  {
+   "item": "KACUSPT",
+   "category": "Suppressors & muzzle",
+   "realname": "Knight's Armament QDC suppressor mount / PRT family",
+   "note": "abbreviated, low confidence"
+  },
+  {
+   "item": "KAC_556PRT_Black",
+   "category": "Suppressors & muzzle",
+   "realname": "KAC 5.56 QDC PRT flash hider/suppressor mount",
+   "note": "black colourway"
+  },
+  {
+   "item": "KAC_556PRT_FDE",
+   "category": "Suppressors & muzzle",
+   "realname": "KAC 5.56 QDC PRT",
+   "note": "FDE colourway"
+  },
+  {
+   "item": "KAC_556PRT_MCQ_BLK",
+   "category": "Suppressors & muzzle",
+   "realname": "KAC 5.56 QDC PRT (MCQ variant)",
+   "note": "black colourway"
+  },
+  {
+   "item": "KAC_556PRT_MCQ_FDE",
+   "category": "Suppressors & muzzle",
+   "realname": "KAC 5.56 QDC PRT (MCQ variant)",
+   "note": "FDE colourway"
+  },
+  {
+   "item": "KAG",
+   "category": "Grips & foregrips",
+   "realname": "Magpul KAG Kinesthetic Angled Grip"
+  },
+  {
+   "item": "KAG 1",
+   "category": "Grips & foregrips",
+   "realname": "Magpul KAG Kinesthetic Angled Grip",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "Kobra.001",
+   "category": "Optics & sights",
+   "realname": "EKP-8-02 Kobra red dot sight",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "LDAG",
+   "category": "Grips & foregrips",
+   "realname": "angled fore grip variant",
+   "note": "abbreviation, low confidence"
+  },
+  {
+   "item": "LP_civka+loght+handle",
+   "category": "Handguards & rails",
+   "realname": "AK forend (Russian 'tsevyo') with light and handle",
+   "note": "artist transliteration/misspelling, combined asset"
+  },
+  {
+   "item": "LP_stvolkorobka",
+   "category": "Receivers & bodies",
+   "realname": "AK receiver (Russian 'stvolnaya korobka')"
+  },
+  {
+   "item": "LVAW_CH",
+   "category": "Charging handles & controls",
+   "realname": "Q Honey Badger / LVAW charging handle"
+  },
+  {
+   "item": "LVAW_HG13",
+   "category": "Handguards & rails",
+   "realname": "LVAW 13in handguard"
+  },
+  {
+   "item": "Lens",
+   "category": "Reticles & scope glass",
+   "realname": "optic lens glass material"
+  },
+  {
+   "item": "Lens 1",
+   "category": "Reticles & scope glass",
+   "realname": "optic lens glass material",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "LinkCFG",
+   "category": "Grips & foregrips",
+   "realname": "BCM/Link curved fore grip",
+   "note": "low confidence"
+  },
+  {
+   "item": "LinkCFG 1",
+   "category": "Grips & foregrips",
+   "realname": "curved fore grip",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "LinkCFG 2",
+   "category": "Grips & foregrips",
+   "realname": "curved fore grip",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "LinkCFG 3",
+   "category": "Grips & foregrips",
+   "realname": "curved fore grip",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "M17",
+   "category": "Receivers & bodies",
+   "realname": "SIG Sauer M17 pistol"
+  },
+  {
+   "item": "M4",
+   "category": "Receivers & bodies",
+   "realname": "Colt M4 carbine receiver"
+  },
+  {
+   "item": "M4 1",
+   "category": "Receivers & bodies",
+   "realname": "Colt M4 carbine receiver",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "M4 2",
+   "category": "Receivers & bodies",
+   "realname": "Colt M4 carbine receiver",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "M4 3",
+   "category": "Receivers & bodies",
+   "realname": "Colt M4 carbine receiver",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "M45A1",
+   "category": "Receivers & bodies",
+   "realname": "Colt M45A1 CQBP 1911"
+  },
+  {
+   "item": "M45A1 grn",
+   "category": "Receivers & bodies",
+   "realname": "Colt M45A1 CQBP 1911",
+   "note": "green colourway"
+  },
+  {
+   "item": "M4X_HG_DD1225",
+   "category": "Handguards & rails",
+   "realname": "Daniel Defense 12.25in rail"
+  },
+  {
+   "item": "M4X_HG_DD1225 1",
+   "category": "Handguards & rails",
+   "realname": "Daniel Defense 12.25in rail",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "M4X_HG_DD95",
+   "category": "Handguards & rails",
+   "realname": "Daniel Defense 9.5in rail"
+  },
+  {
+   "item": "M4X_HG_DD95 1",
+   "category": "Handguards & rails",
+   "realname": "Daniel Defense 9.5in rail",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "M4X_HG_DD95 2",
+   "category": "Handguards & rails",
+   "realname": "Daniel Defense 9.5in rail",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "M4X_HG_DDFSP",
+   "category": "Handguards & rails",
+   "realname": "Daniel Defense rail with fixed sight post cut"
+  },
+  {
+   "item": "M4X_HG_DDFSP 1",
+   "category": "Handguards & rails",
+   "realname": "Daniel Defense rail with fixed sight post cut",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "M4_Carry_Handle",
+   "category": "Iron sights",
+   "realname": "M4/AR-15 detachable carry handle rear sight"
+  },
+  {
+   "item": "M600V_Lens",
+   "category": "Lights & lasers",
+   "realname": "SureFire M600V Scout light lens"
+  },
+  {
+   "item": "M9_Sight_Mounts",
+   "category": "Mounts & rings",
+   "realname": "Beretta M9 sight mount"
+  },
+  {
+   "item": "MB_HX556",
+   "category": "Suppressors & muzzle",
+   "realname": "HX-QD 556 muzzle brake / suppressor mount",
+   "note": "low confidence"
+  },
+  {
+   "item": "MP5SD_RingMount",
+   "category": "Mounts & rings",
+   "realname": "HK MP5SD claw/ring optic mount"
+  },
+  {
+   "item": "MP5_Charge",
+   "category": "Charging handles & controls",
+   "realname": "HK MP5 cocking handle"
+  },
+  {
+   "item": "MP5_Mount",
+   "category": "Mounts & rings",
+   "realname": "HK MP5 optic mount"
+  },
+  {
+   "item": "MP5_RearSight",
+   "category": "Iron sights",
+   "realname": "HK MP5 diopter rear sight"
+  },
+  {
+   "item": "MP7A1",
+   "category": "Receivers & bodies",
+   "realname": "HK MP7A1"
+  },
+  {
+   "item": "MP7A2",
+   "category": "Receivers & bodies",
+   "realname": "HK MP7A2"
+  },
+  {
+   "item": "MP7A2 1",
+   "category": "Receivers & bodies",
+   "realname": "HK MP7A2",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "MP9 2",
+   "category": "Receivers & bodies",
+   "realname": "B&T MP9",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "MRO_Tall",
+   "category": "Optics & sights",
+   "realname": "Trijicon MRO with tall/absolute mount"
+  },
+  {
+   "item": "MVG",
+   "category": "Grips & foregrips",
+   "realname": "Magpul MVG MOE vertical grip"
+  },
+  {
+   "item": "MVG 1",
+   "category": "Grips & foregrips",
+   "realname": "Magpul MVG vertical grip",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "MVG 2",
+   "category": "Grips & foregrips",
+   "realname": "Magpul MVG vertical grip",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "MVG 3",
+   "category": "Grips & foregrips",
+   "realname": "Magpul MVG vertical grip",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "MagWellandExtension",
+   "category": "Magazines",
+   "realname": "magwell funnel plus magazine extension"
+  },
+  {
+   "item": "Magtube_14",
+   "category": "Shotgun parts",
+   "realname": "shotgun magazine tube, 14in"
+  },
+  {
+   "item": "Magtube_18-5",
+   "category": "Shotgun parts",
+   "realname": "shotgun magazine tube, 18.5in"
+  },
+  {
+   "item": "Magtube_21",
+   "category": "Shotgun parts",
+   "realname": "shotgun magazine tube, 21in"
+  },
+  {
+   "item": "Maid",
+   "category": "Other",
+   "note": "unidentifiable / likely placeholder"
+  },
+  {
+   "item": "Maid 1",
+   "category": "Other",
+   "note": "unidentifiable / likely placeholder, Unity duplicate-name suffix"
+  },
+  {
+   "item": "Mod3",
+   "category": "Other",
+   "note": "unidentifiable generic variant name"
+  },
+  {
+   "item": "Mod3 1",
+   "category": "Other",
+   "note": "unidentifiable, Unity duplicate-name suffix"
+  },
+  {
+   "item": "Mossberg_590_Forearm_1",
+   "category": "Shotgun parts",
+   "realname": "Mossberg 590 forend"
+  },
+  {
+   "item": "Mossberg_590_Forearm_1 1",
+   "category": "Shotgun parts",
+   "realname": "Mossberg 590 forend",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "Mossberg_590_Forearm_2",
+   "category": "Shotgun parts",
+   "realname": "Mossberg 590 forend"
+  },
+  {
+   "item": "Mossberg_590_Forearm_2 1",
+   "category": "Shotgun parts",
+   "realname": "Mossberg 590 forend",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "Mossberg_590_Rear_Sight",
+   "category": "Iron sights",
+   "realname": "Mossberg 590 rear sight"
+  },
+  {
+   "item": "Mossberg_590_Rear_Sight 1",
+   "category": "Iron sights",
+   "realname": "Mossberg 590 rear sight",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "Mount_KnightsArmament-30mm",
+   "category": "Mounts & rings",
+   "realname": "Knight's Armament 30mm scope mount"
+  },
+  {
+   "item": "New Material",
+   "category": "Other",
+   "note": "placeholder Unity default material"
+  },
+  {
+   "item": "New Material 1",
+   "category": "Other",
+   "note": "placeholder Unity default material"
+  },
+  {
+   "item": "New Material 2",
+   "category": "Other",
+   "note": "placeholder Unity default material"
+  },
+  {
+   "item": "New Material 3",
+   "category": "Other",
+   "note": "placeholder Unity default material"
+  },
+  {
+   "item": "New Material 4",
+   "category": "Other",
+   "note": "placeholder Unity default material"
+  },
+  {
+   "item": "OKP_7_Dovetail",
+   "category": "Optics & sights",
+   "realname": "OKP-7 reflex sight, dovetail mount"
+  },
+  {
+   "item": "OKP_7_Dovetail_Lens",
+   "category": "Reticles & scope glass",
+   "realname": "OKP-7 lens/reticle glass"
+  },
+  {
+   "item": "OMM_FDE",
+   "category": "Suppressors & muzzle",
+   "realname": "Dead Air / SilencerCo muzzle device (OMM), FDE",
+   "note": "FDE colourway"
+  },
+  {
+   "item": "Osprey45K",
+   "category": "Suppressors & muzzle",
+   "realname": "SilencerCo Osprey 45K suppressor"
+  },
+  {
+   "item": "PVS30",
+   "category": "Optics & sights",
+   "realname": "AN/PVS-30 clip-on night vision sight"
+  },
+  {
+   "item": "Primer_New_Silver",
+   "category": "Ammunition & shells",
+   "realname": "cartridge primer"
+  },
+  {
+   "item": "QD WAVE",
+   "category": "Suppressors & muzzle",
+   "realname": "Dead Air Wave / QD mount suppressor"
+  },
+  {
+   "item": "RBC_Mat",
+   "category": "Other",
+   "note": "unidentified"
+  },
+  {
+   "item": "RK3_sdr",
+   "category": "Grips & foregrips",
+   "realname": "Magpul RK3 / Zenitco RK-3 grip"
+  },
+  {
+   "item": "Reciever_AKS74.001",
+   "category": "Receivers & bodies",
+   "realname": "AKS-74 receiver",
+   "note": "misspelled 'Reciever'; .001 duplicate suffix"
+  },
+  {
+   "item": "Reflex",
+   "category": "Optics & sights",
+   "realname": "generic reflex sight"
+  },
+  {
+   "item": "Rs_Mount",
+   "category": "Mounts & rings",
+   "realname": "Reptilia ROF/RS mount"
+  },
+  {
+   "item": "Rs_Mount fde",
+   "category": "Mounts & rings",
+   "realname": "Reptilia ROF/RS mount",
+   "note": "FDE colourway"
+  },
+  {
+   "item": "SDN6",
+   "category": "Suppressors & muzzle",
+   "realname": "SureFire SOCOM556-SDN-6 suppressor"
+  },
+  {
+   "item": "SL-K",
+   "category": "Lights & lasers",
+   "realname": "Streamlight ProTac / Modlite SL-K weapon light"
+  },
+  {
+   "item": "SLRSynergy",
+   "category": "Suppressors & muzzle",
+   "realname": "SLR Synergy muzzle brake/flash hider"
+  },
+  {
+   "item": "SLRSynergy 1",
+   "category": "Suppressors & muzzle",
+   "realname": "SLR Synergy muzzle device",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "SOCOM556MINI2_Mat",
+   "category": "Suppressors & muzzle",
+   "realname": "SureFire SOCOM556-MINI2 suppressor"
+  },
+  {
+   "item": "SOCOM556MINI2_Mat 1",
+   "category": "Suppressors & muzzle",
+   "realname": "SureFire SOCOM556-MINI2 suppressor",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "SOCOMM556-RC3",
+   "category": "Suppressors & muzzle",
+   "realname": "SureFire SOCOM556-RC3 suppressor",
+   "note": "misspelled SOCOMM"
+  },
+  {
+   "item": "SPEAR",
+   "category": "Receivers & bodies",
+   "realname": "SIG MCX-SPEAR rifle body"
+  },
+  {
+   "item": "SPEAR 1",
+   "category": "Receivers & bodies",
+   "realname": "SIG MCX-SPEAR rifle body",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "SRD762TI_10",
+   "category": "Suppressors & muzzle",
+   "realname": "SIG SRD762-TI 10\" suppressor"
+  },
+  {
+   "item": "SRD762TI_16",
+   "category": "Suppressors & muzzle",
+   "realname": "SIG SRD762-TI 16\" suppressor"
+  },
+  {
+   "item": "SRD762_MIL_16",
+   "category": "Suppressors & muzzle",
+   "realname": "SIG SRD762 MIL suppressor"
+  },
+  {
+   "item": "SRD762_QD",
+   "category": "Suppressors & muzzle",
+   "realname": "SIG SRD762 QD suppressor"
+  },
+  {
+   "item": "SRD_MB",
+   "category": "Suppressors & muzzle",
+   "realname": "SIG SRD muzzle brake"
+  },
+  {
+   "item": "SRS",
+   "category": "Optics & sights",
+   "realname": "Shield SRS reflex sight"
+  },
+  {
+   "item": "SRS Lens",
+   "category": "Reticles & scope glass",
+   "realname": "Shield SRS lens"
+  },
+  {
+   "item": "SRS Lens 1",
+   "category": "Reticles & scope glass",
+   "realname": "Shield SRS lens",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "SRS_Fiber",
+   "category": "Optics & sights",
+   "realname": "Shield SRS fiber optic element"
+  },
+  {
+   "item": "SRS_FrontGlass",
+   "category": "Reticles & scope glass",
+   "realname": "Shield SRS front glass"
+  },
+  {
+   "item": "SRS_RearGlass",
+   "category": "Reticles & scope glass",
+   "realname": "Shield SRS rear glass"
+  },
+  {
+   "item": "SUP_HXFLOW556K",
+   "category": "Suppressors & muzzle",
+   "realname": "HUXWRX Flow 556K suppressor"
+  },
+  {
+   "item": "SUP_HXFLOW556K 1",
+   "category": "Suppressors & muzzle",
+   "realname": "HUXWRX Flow 556K suppressor",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "Salvo12",
+   "category": "Suppressors & muzzle",
+   "realname": "SilencerCo Salvo 12 shotgun suppressor"
+  },
+  {
+   "item": "Sights_Field",
+   "category": "Iron sights",
+   "realname": "field iron sights"
+  },
+  {
+   "item": "Sights_Tac",
+   "category": "Iron sights",
+   "realname": "tactical iron sights"
+  },
+  {
+   "item": "Smoke",
+   "category": "VFX / distortion",
+   "note": "muzzle smoke effect material"
+  },
+  {
+   "item": "SoundGuard_SG556",
+   "category": "Suppressors & muzzle",
+   "realname": "SoundGuard SG556 suppressor"
+  },
+  {
+   "item": "Steel",
+   "category": "Other",
+   "note": "generic steel material"
+  },
+  {
+   "item": "Supressor_STSC_MFMD_308_BLK",
+   "category": "Suppressors & muzzle",
+   "realname": "Surefire/SilencerCo-style .308 suppressor",
+   "note": "misspelled 'Supressor'; black"
+  },
+  {
+   "item": "Supressor_STSC_MFMD_308_BLK 1",
+   "category": "Suppressors & muzzle",
+   "realname": ".308 suppressor",
+   "note": "duplicate suffix; black"
+  },
+  {
+   "item": "Supressor_STSC_MFMD_338_BLK",
+   "category": "Suppressors & muzzle",
+   "realname": ".338 suppressor",
+   "note": "black"
+  },
+  {
+   "item": "Supressor_STSC_MFMD_338_BLK 1",
+   "category": "Suppressors & muzzle",
+   "realname": ".338 suppressor",
+   "note": "duplicate suffix; black"
+  },
+  {
+   "item": "Supressor_STSC_MFMD_556_BLK",
+   "category": "Suppressors & muzzle",
+   "realname": "5.56 suppressor",
+   "note": "black"
+  },
+  {
+   "item": "Supressor_STSC_MFMD_556_BLK 1",
+   "category": "Suppressors & muzzle",
+   "realname": "5.56 suppressor",
+   "note": "duplicate suffix; black"
+  },
+  {
+   "item": "Supressor_STSC_MFMD_556_SDX_BLK",
+   "category": "Suppressors & muzzle",
+   "realname": "5.56 SDX suppressor",
+   "note": "black"
+  },
+  {
+   "item": "Supressor_STSC_MFMD_556_SDX_BLK 1",
+   "category": "Suppressors & muzzle",
+   "realname": "5.56 SDX suppressor",
+   "note": "duplicate suffix; black"
+  },
+  {
+   "item": "Supressor_STSC_MFMD_556_SD_BLK",
+   "category": "Suppressors & muzzle",
+   "realname": "SureFire SOCOM 556 / STSC-type 5.56 suppressor, black",
+   "note": "artist misspelling 'Supressor'"
+  },
+  {
+   "item": "Supressor_STSC_MFMD_556_SD_BLK 1",
+   "category": "Suppressors & muzzle",
+   "realname": "5.56 suppressor, black",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "TAAFTS",
+   "category": "Optics & sights",
+   "realname": "Tango Down / TA AFTS - Trijicon ACOG AFTS (Advanced Forward Throw Sight) mount top optic",
+   "note": "treated as miniature red dot atop ACOG"
+  },
+  {
+   "item": "TAAFTS 1",
+   "category": "Optics & sights",
+   "realname": "AFTS top sight",
+   "note": "duplicate-name suffix"
+  },
+  {
+   "item": "TDHexPG",
+   "category": "Grips & foregrips",
+   "realname": "Tango Down Battlegrip Hex pistol grip"
+  },
+  {
+   "item": "TI_Mount",
+   "category": "Mounts & rings",
+   "realname": "thermal/Trijicon-style optic mount"
+  },
+  {
+   "item": "TLR7",
+   "category": "Lights & lasers",
+   "realname": "Streamlight TLR-7 weapon light"
+  },
+  {
+   "item": "TTI_JW4_PV_1",
+   "category": "Receivers & bodies",
+   "realname": "Taran Tactical John Wick 4 Pit Viper build component"
+  },
+  {
+   "item": "TTI_JW4_PV_1 1",
+   "category": "Receivers & bodies",
+   "realname": "TTI JW4 Pit Viper part",
+   "note": "duplicate-name suffix"
+  },
+  {
+   "item": "TTI_JW4_PV_1 2",
+   "category": "Receivers & bodies",
+   "realname": "TTI JW4 Pit Viper part",
+   "note": "duplicate-name suffix"
+  },
+  {
+   "item": "TTI_JW4_PV_2",
+   "category": "Receivers & bodies",
+   "realname": "TTI JW4 Pit Viper part"
+  },
+  {
+   "item": "TTI_JW4_PV_2 1",
+   "category": "Receivers & bodies",
+   "realname": "TTI JW4 Pit Viper part",
+   "note": "duplicate-name suffix"
+  },
+  {
+   "item": "TTI_JW4_PV_2 2",
+   "category": "Receivers & bodies",
+   "realname": "TTI JW4 Pit Viper part",
+   "note": "duplicate-name suffix"
+  },
+  {
+   "item": "TTI_JW4_PV_3.001",
+   "category": "Receivers & bodies",
+   "realname": "TTI JW4 Pit Viper part",
+   "note": "Blender/Unity .001 duplicate suffix"
+  },
+  {
+   "item": "TangoDownStubby",
+   "category": "Grips & foregrips",
+   "realname": "Tango Down Stubby BGV-MK46 vertical foregrip"
+  },
+  {
+   "item": "TangoDownStubby 1",
+   "category": "Grips & foregrips",
+   "realname": "Tango Down stubby foregrip",
+   "note": "duplicate-name suffix"
+  },
+  {
+   "item": "UH1",
+   "category": "Optics & sights",
+   "realname": "Vortex UH-1 Razor AMG holographic sight"
+  },
+  {
+   "item": "URX6 10 5",
+   "category": "Handguards & rails",
+   "realname": "Knight's Armament URX6 handguard, 10.5 in"
+  },
+  {
+   "item": "URX6 12 5",
+   "category": "Handguards & rails",
+   "realname": "KAC URX6 handguard, 12.5 in"
+  },
+  {
+   "item": "URX6 15",
+   "category": "Handguards & rails",
+   "realname": "KAC URX6 handguard, 15 in"
+  },
+  {
+   "item": "USP_45_sight_ems",
+   "category": "Iron sights",
+   "realname": "H&K USP .45 sights (EMS - elevated/suppressor-height)"
+  },
+  {
+   "item": "UTG",
+   "category": "Optics & sights",
+   "realname": "UTG (Leapers) optic/accessory"
+  },
+  {
+   "item": "UVG",
+   "category": "Grips & foregrips",
+   "realname": "universal vertical grip"
+  },
+  {
+   "item": "UVG 1",
+   "category": "Grips & foregrips",
+   "realname": "universal vertical grip",
+   "note": "duplicate-name suffix"
+  },
+  {
+   "item": "VSevenHelios",
+   "category": "Suppressors & muzzle",
+   "realname": "V Seven Weapon Systems Helios muzzle brake/compensator"
+  },
+  {
+   "item": "VSevenHelios 1",
+   "category": "Suppressors & muzzle",
+   "realname": "V Seven Helios muzzle device",
+   "note": "duplicate-name suffix"
+  },
+  {
+   "item": "Vudu_Rear_Glass",
+   "category": "Reticles & scope glass",
+   "realname": "EOTech Vudu LPVO rear ocular glass"
+  },
+  {
+   "item": "WML",
+   "category": "Lights & lasers",
+   "realname": "weapon mounted light"
+  },
+  {
+   "item": "Warden_Mat",
+   "category": "Suppressors & muzzle",
+   "realname": "SureFire WARDEN blast regulator",
+   "note": "_Mat = material suffix"
+  },
+  {
+   "item": "WilcoxMount",
+   "category": "Mounts & rings",
+   "realname": "Wilcox optic/NVG mount"
+  },
+  {
+   "item": "WilcoxMount 1",
+   "category": "Mounts & rings",
+   "realname": "Wilcox mount",
+   "note": "duplicate-name suffix"
+  },
+  {
+   "item": "XPS3",
+   "category": "Optics & sights",
+   "realname": "EOTech XPS3 holographic sight"
+  },
+  {
+   "item": "XPS3 1",
+   "category": "Optics & sights",
+   "realname": "EOTech XPS3",
+   "note": "duplicate-name suffix"
+  },
+  {
+   "item": "Zenit PT1",
+   "category": "Stocks & buffers",
+   "realname": "Zenitco PT-1 'Klassika' telescoping AK stock"
+  },
+  {
+   "item": "Zulu2",
+   "category": "Optics & sights",
+   "realname": "Unity Tactical / Sig-style Zulu 2 optic-mount accessory",
+   "note": "could be mount; treated as sight assembly"
+  },
+  {
+   "item": "acro_mount",
+   "category": "Mounts & rings",
+   "realname": "Aimpoint Acro mount"
+  },
+  {
+   "item": "acrop2",
+   "category": "Optics & sights",
+   "realname": "Aimpoint Acro P-2 red dot"
+  },
+  {
+   "item": "acrop2 1",
+   "category": "Optics & sights",
+   "realname": "Aimpoint Acro P-2",
+   "note": "duplicate-name suffix"
+  },
+  {
+   "item": "acrop2 Glass",
+   "category": "Reticles & scope glass",
+   "realname": "Aimpoint Acro P-2 lens/reticle glass"
+  },
+  {
+   "item": "assaulterk",
+   "category": "Handguards & rails",
+   "realname": "Midwest Industries / KAC-style AK 'Assaulter' handguard kit",
+   "note": "low confidence"
+  },
+  {
+   "item": "black",
+   "category": "Other",
+   "note": "colour-token-only shared material (black)"
+  },
+  {
+   "item": "bravo4",
+   "category": "Optics & sights",
+   "realname": "Vortex Strikefire/Primary Arms? - Bravo4: Elcan/Trijicon-style 4x prism; likely Primary Arms SLx or 'Bravo' 4x optic"
+  },
+  {
+   "item": "bravo4 1",
+   "category": "Optics & sights",
+   "realname": "Bravo4 4x optic",
+   "note": "duplicate-name suffix"
+  },
+  {
+   "item": "bravo4 2",
+   "category": "Optics & sights",
+   "realname": "Bravo4 4x optic",
+   "note": "duplicate-name suffix"
+  },
+  {
+   "item": "buttBLK",
+   "category": "Stocks & buffers",
+   "realname": "buttstock/buttpad, black",
+   "note": "camo/colour token BLK"
+  },
+  {
+   "item": "buttFDE",
+   "category": "Stocks & buffers",
+   "realname": "buttstock/buttpad, flat dark earth",
+   "note": "colour token FDE"
+  },
+  {
+   "item": "cobra",
+   "category": "Optics & sights",
+   "realname": "Zenitco Cobra / EOTech-style 'Cobra' collimator sight"
+  },
+  {
+   "item": "dd",
+   "category": "Handguards & rails",
+   "realname": "Daniel Defense rail/handguard",
+   "note": "abbreviation only, low confidence"
+  },
+  {
+   "item": "doctersightc 1",
+   "category": "Optics & sights",
+   "realname": "Docter Sight C red dot",
+   "note": "duplicate-name suffix"
+  },
+  {
+   "item": "doctersightc 2",
+   "category": "Optics & sights",
+   "realname": "Docter Sight C red dot",
+   "note": "duplicate-name suffix"
+  },
+  {
+   "item": "doctersightc 3",
+   "category": "Optics & sights",
+   "realname": "Docter Sight C red dot",
+   "note": "duplicate-name suffix"
+  },
+  {
+   "item": "doctersightc 4",
+   "category": "Optics & sights",
+   "realname": "Docter Sight C red dot",
+   "note": "duplicate-name suffix"
+  },
+  {
+   "item": "forearm_dedicated",
+   "category": "Shotgun parts",
+   "realname": "shotgun forend, dedicated type"
+  },
+  {
+   "item": "forearm_slimline",
+   "category": "Shotgun parts",
+   "realname": "shotgun forend, slimline"
+  },
+  {
+   "item": "forearm_vented",
+   "category": "Shotgun parts",
+   "realname": "shotgun forend, vented"
+  },
+  {
+   "item": "forearm_wood",
+   "category": "Shotgun parts",
+   "realname": "shotgun forend, wood"
+  },
+  {
+   "item": "ftc_mount",
+   "category": "Mounts & rings",
+   "realname": "Trijicon/Aimpoint FTC (Flip To Center) magnifier mount"
+  },
+  {
+   "item": "ftc_mount 1",
+   "category": "Mounts & rings",
+   "realname": "FTC magnifier mount",
+   "note": "duplicate-name suffix"
+  },
+  {
+   "item": "gbrs",
+   "category": "Other",
+   "realname": "GBRS Group branded accessory/decal",
+   "note": "ambiguous, likely branding material"
+  },
+  {
+   "item": "glass",
+   "category": "Reticles & scope glass",
+   "realname": "generic optic lens glass material",
+   "note": "shared asset"
+  },
+  {
+   "item": "goldenar15bcg",
+   "category": "Receivers & bodies",
+   "realname": "AR-15 bolt carrier group (gold/TiN)",
+   "note": "gold-plated BCG finish"
+  },
+  {
+   "item": "hamr",
+   "category": "Optics & sights",
+   "realname": "Trijicon ACOG/VCOG HAMR 4x24"
+  },
+  {
+   "item": "ironsight a2",
+   "category": "Iron sights",
+   "realname": "AR-15 A2 front sight post"
+  },
+  {
+   "item": "kac_micro",
+   "category": "Iron sights",
+   "realname": "Knight's Armament Micro folding sight"
+  },
+  {
+   "item": "kac_micro 1",
+   "category": "Iron sights",
+   "realname": "Knight's Armament Micro folding sight",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "l5awm",
+   "category": "Magazines",
+   "realname": "Lancer L5AWM magazine"
+  },
+  {
+   "item": "l5awm trans",
+   "category": "Magazines",
+   "realname": "Lancer L5AWM translucent magazine",
+   "note": "translucent body variant"
+  },
+  {
+   "item": "l5awm trans darknew",
+   "category": "Magazines",
+   "realname": "Lancer L5AWM translucent (smoke/dark)"
+  },
+  {
+   "item": "lambert14",
+   "category": "Barrels",
+   "realname": "14.5in barrel variant"
+  },
+  {
+   "item": "lambert14 1",
+   "category": "Barrels",
+   "realname": "14.5in barrel variant",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "large01",
+   "category": "Other",
+   "note": "generic size-tier material, unidentifiable"
+  },
+  {
+   "item": "large01 1",
+   "category": "Other",
+   "note": "generic size-tier material, unidentifiable"
+  },
+  {
+   "item": "large01 2",
+   "category": "Other",
+   "note": "generic size-tier material, unidentifiable"
+  },
+  {
+   "item": "large01 3",
+   "category": "Other",
+   "note": "generic size-tier material, unidentifiable"
+  },
+  {
+   "item": "lco",
+   "category": "Optics & sights",
+   "realname": "Leupold LCO red dot"
+  },
+  {
+   "item": "lco glass",
+   "category": "Reticles & scope glass",
+   "realname": "Leupold LCO lens/reticle"
+  },
+  {
+   "item": "lco glass 1",
+   "category": "Reticles & scope glass",
+   "realname": "Leupold LCO lens/reticle",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "low",
+   "category": "Mounts & rings",
+   "note": "low-height mount tier"
+  },
+  {
+   "item": "low 1",
+   "category": "Mounts & rings",
+   "note": "low-height mount tier, duplicate suffix"
+  },
+  {
+   "item": "m300c",
+   "category": "Lights & lasers",
+   "realname": "SureFire M300C Scout Light"
+  },
+  {
+   "item": "m300c 1",
+   "category": "Lights & lasers",
+   "realname": "SureFire M300C Scout Light",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "m472",
+   "category": "Optics & sights",
+   "realname": "Trijicon ACOG TA31 / M472 optic",
+   "note": "low confidence"
+  },
+  {
+   "item": "m600v",
+   "category": "Lights & lasers",
+   "realname": "SureFire M600V Scout Light (IR/white)"
+  },
+  {
+   "item": "m600v 1",
+   "category": "Lights & lasers",
+   "realname": "SureFire M600V Scout Light",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "magBLK",
+   "category": "Magazines",
+   "realname": "Magazine, black colourway"
+  },
+  {
+   "item": "magFDE",
+   "category": "Magazines",
+   "realname": "Magazine, FDE colourway"
+  },
+  {
+   "item": "micro_mount_offset",
+   "category": "Mounts & rings",
+   "realname": "Aimpoint Micro offset mount"
+  },
+  {
+   "item": "micro_mount_short",
+   "category": "Mounts & rings",
+   "realname": "Aimpoint Micro low/short mount"
+  },
+  {
+   "item": "micro_mount_unity_Black",
+   "category": "Mounts & rings",
+   "realname": "Unity Tactical FAST Micro mount, black"
+  },
+  {
+   "item": "micro_mount_unity_fde",
+   "category": "Mounts & rings",
+   "realname": "Unity Tactical FAST Micro mount, FDE"
+  },
+  {
+   "item": "micro_t2",
+   "category": "Optics & sights",
+   "realname": "Aimpoint Micro T-2"
+  },
+  {
+   "item": "micro_t2 1",
+   "category": "Optics & sights",
+   "realname": "Aimpoint Micro T-2",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "micro_t2 tall",
+   "category": "Optics & sights",
+   "realname": "Aimpoint Micro T-2, tall mount variant"
+  },
+  {
+   "item": "mk17",
+   "category": "Receivers & bodies",
+   "realname": "FN SCAR-H Mk17 receiver"
+  },
+  {
+   "item": "mod placeholder material",
+   "category": "Other",
+   "note": "dead/placeholder material"
+  },
+  {
+   "item": "mp5",
+   "category": "Receivers & bodies",
+   "realname": "H&K MP5 receiver/body"
+  },
+  {
+   "item": "mp7 40",
+   "category": "Magazines",
+   "realname": "H&K MP7 40-round magazine"
+  },
+  {
+   "item": "mp7 irons",
+   "category": "Iron sights",
+   "realname": "H&K MP7 folding iron sights"
+  },
+  {
+   "item": "mp9",
+   "category": "Receivers & bodies",
+   "realname": "B&T MP9 body"
+  },
+  {
+   "item": "mrds_offset_mount",
+   "category": "Mounts & rings",
+   "realname": "Mini red dot offset mount"
+  },
+  {
+   "item": "mro",
+   "category": "Optics & sights",
+   "realname": "Trijicon MRO"
+  },
+  {
+   "item": "mro 1",
+   "category": "Optics & sights",
+   "realname": "Trijicon MRO",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "mro 2",
+   "category": "Optics & sights",
+   "realname": "Trijicon MRO",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "mro_mounts",
+   "category": "Mounts & rings",
+   "realname": "Trijicon MRO mount"
+  },
+  {
+   "item": "mrs",
+   "category": "Optics & sights",
+   "realname": "Shield MRDS / Bushnell MRS red dot"
+  },
+  {
+   "item": "newRSE",
+   "category": "Stocks & buffers",
+   "realname": "Magpul RSA / receiver-extension buffer tube",
+   "note": "low confidence"
+  },
+  {
+   "item": "newRSE 1",
+   "category": "Stocks & buffers",
+   "realname": "receiver extension",
+   "note": "Unity duplicate-name suffix; low confidence"
+  },
+  {
+   "item": "ngal",
+   "category": "Lights & lasers",
+   "realname": "L3Harris NGAL laser aiming device"
+  },
+  {
+   "item": "noveske_acessories",
+   "category": "Handguards & rails",
+   "realname": "Noveske rail accessories",
+   "note": "artist misspelling 'acessories'"
+  },
+  {
+   "item": "noveske_acessories 2",
+   "category": "Handguards & rails",
+   "realname": "Noveske rail accessories",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "orion",
+   "category": "Suppressors & muzzle",
+   "realname": "Rugged/OSS-style suppressor 'Orion'",
+   "note": "low confidence"
+  },
+  {
+   "item": "p226",
+   "category": "Receivers & bodies",
+   "realname": "SIG Sauer P226 frame/slide"
+  },
+  {
+   "item": "pepr",
+   "category": "Mounts & rings",
+   "realname": "Burris AR-P.E.P.R. scope mount"
+  },
+  {
+   "item": "pistol moe",
+   "category": "Grips & foregrips",
+   "realname": "Magpul MOE pistol grip"
+  },
+  {
+   "item": "pistol moe 1",
+   "category": "Grips & foregrips",
+   "realname": "Magpul MOE pistol grip",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "pistol moe 2",
+   "category": "Grips & foregrips",
+   "realname": "Magpul MOE pistol grip",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "pm2 shortdot_rendertarget",
+   "category": "Reticles & scope glass",
+   "realname": "Schmidt & Bender PM II ShortDot scope render target",
+   "note": "scope render-texture material"
+  },
+  {
+   "item": "polonium 556k",
+   "category": "Suppressors & muzzle",
+   "realname": "Polonium 5.56K suppressor (Q/Dead Air style)"
+  },
+  {
+   "item": "polonium 556k 1",
+   "category": "Suppressors & muzzle",
+   "realname": "Polonium 5.56K suppressor",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "polonium 556k 2",
+   "category": "Suppressors & muzzle",
+   "realname": "Polonium 5.56K suppressor",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "raptorBlack",
+   "category": "Charging handles & controls",
+   "realname": "Rainier Arms Raptor ambidextrous charging handle",
+   "note": "black colourway token"
+  },
+  {
+   "item": "romoe 8t",
+   "category": "Optics & sights",
+   "realname": "Sig Sauer Romeo8T red dot sight",
+   "note": "artist misspelling of 'romeo'"
+  },
+  {
+   "item": "romoe 8t 1",
+   "category": "Optics & sights",
+   "realname": "Sig Sauer Romeo8T red dot sight",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "shortdot",
+   "category": "Optics & sights",
+   "realname": "Schmidt & Bender PM II 1-8x Short Dot scope"
+  },
+  {
+   "item": "shortdot 1",
+   "category": "Optics & sights",
+   "realname": "Schmidt & Bender PM II Short Dot scope",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "specter",
+   "category": "Optics & sights",
+   "realname": "Elcan SpecterDR combat sight"
+  },
+  {
+   "item": "specter lesn",
+   "category": "Reticles & scope glass",
+   "realname": "Elcan SpecterDR lens/glass",
+   "note": "'lesn' = misspelled 'lens'"
+  },
+  {
+   "item": "specter_accessories",
+   "category": "Optics & sights",
+   "realname": "Elcan SpecterDR accessory parts (caps, levers)"
+  },
+  {
+   "item": "staccatoxc",
+   "category": "Receivers & bodies",
+   "realname": "Staccato XC 2011 pistol frame/slide"
+  },
+  {
+   "item": "staccatoxc 1",
+   "category": "Receivers & bodies",
+   "realname": "Staccato XC 2011 pistol frame/slide",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "staccatoxc 2",
+   "category": "Receivers & bodies",
+   "realname": "Staccato XC 2011 pistol frame/slide",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "staccatoxc 3",
+   "category": "Receivers & bodies",
+   "realname": "Staccato XC 2011 pistol frame/slide",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "steel",
+   "category": "Other",
+   "note": "bare material/colourway token, shared steel material"
+  },
+  {
+   "item": "tango6t",
+   "category": "Optics & sights",
+   "realname": "Sig Sauer Tango6T 1-6x riflescope"
+  },
+  {
+   "item": "tango6t 1",
+   "category": "Optics & sights",
+   "realname": "Sig Sauer Tango6T riflescope",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "tango6t_rearglass",
+   "category": "Reticles & scope glass",
+   "realname": "Sig Tango6T ocular/rear lens glass"
+  },
+  {
+   "item": "tlr1",
+   "category": "Lights & lasers",
+   "realname": "Streamlight TLR-1 weapon light"
+  },
+  {
+   "item": "tlr1 1",
+   "category": "Lights & lasers",
+   "realname": "Streamlight TLR-1 weapon light",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "tlr1 2",
+   "category": "Lights & lasers",
+   "realname": "Streamlight TLR-1 weapon light",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "vudu16",
+   "category": "Optics & sights",
+   "realname": "EOTech Vudu 1-6x LPVO"
+  },
+  {
+   "item": "vudu16 gry 1",
+   "category": "Optics & sights",
+   "realname": "EOTech Vudu 1-6x LPVO",
+   "note": "grey colourway; Unity duplicate-name suffix"
+  },
+  {
+   "item": "white",
+   "category": "Other",
+   "note": "bare colour token, shared colourway material"
+  },
+  {
+   "item": "x300",
+   "category": "Lights & lasers",
+   "realname": "SureFire X300 pistol weapon light"
+  },
+  {
+   "item": "zenitco_sport_1",
+   "category": "Handguards & rails",
+   "realname": "Zenitco Sport-1 AK handguard/rail system"
+  },
+  {
+   "item": "zenitco_sport_1 1",
+   "category": "Handguards & rails",
+   "realname": "Zenitco Sport-1 AK handguard/rail system",
+   "note": "Unity duplicate-name suffix"
+  },
+  {
+   "item": "BLK",
+   "category": "Other",
+   "note": "black colour token"
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+Material properties that vary across the game's materials.
+
+The full sweep found 1,258 distinct properties over 2,603 materials. 1,019 of them hold
+the same value on every material and another 204 take fewer than ten values, almost all
+blend mode and stencil state. Those are dropped here. What remains is the set an artist
+actually authored per material.
+
+Columns: bundle, material, kind (f float, i int, c colour as r,g,b,a), prop, value.
+
+Properties kept, by distinct value count:
+  _Color                              169 values
+  _SmoothnessRemapMax                 168 values
+  _BaseColor                          158 values
+  _MetallicRemapMax                    84 values
+  _Smoothness                          59 values
+  _SmoothnessRemapMin                  55 values
+  _Metallic                            44 values
+  _SpecularColor                       30 values
+  _Glossiness                          29 values
+  _BASE_COLOR                          29 values
+  Reticle_Size                         27 values
+  _Reticle_Color                       26 values
+  _MetallicRemapMin                    24 values
+  _AORemapMin                          21 values
+  _Blur_Range                          20 values
+  _Blur_Distance                       19 values
+  Lens_Shadow_Depth                    19 values
+  Depth                                19 values
+  _Glass_Tint                          19 values
+  _NormalScale                         18 values
+  _EmissiveColor                       18 values
+  _Reticle_Brightness                  17 values
+  Lens_Eye_Relief_Size                 17 values
+  Reticle_Brightness                   16 values
+  _Retical_Size                        16 values
+  _Offset_Noise_Distance               15 values
+  _Depth                               15 values
+  _Reticle_Offset                      15 values
+  _AlphaRemapMax                       14 values
+  _Offset_Noise_Scroll_Speed           13 values
+  Lens_Eye_Relief_Softness             13 values
+  EyeBox_Softness                      12 values
+  _AORemapMax                          12 values
+  _Blur_Samples                        12 values
+  _RadialNoiseStrength                 11 values
