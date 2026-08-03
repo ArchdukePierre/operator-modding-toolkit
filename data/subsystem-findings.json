@@ -153,9 +153,9 @@
    {
     "title": "Three separate voice stacks are present, and the player uses MetaVoiceChat rather than Dissonance",
     "detail": "Il2Cpp.PlayerVoice (script path \\Assets\\Scripts\\milk_drinker\\VoiceChat\\PlayerVoice.cs) holds VoiceChatComponent typed Il2CppMetaVoiceChat.MetaVc, plus VoipSource, voipVolumeGroup (AudioMixerGroup), RadioLowpass/RadioHighpass/RadioNoise/RadioStartBeep/RadioEndBeep, SyncVar NetworkIsRadioChat with CMD_SetChatType(bool isRadio)/OnChatTypeChanged, ActivateRadio/DeactivateRadio/ResetRadioState, SetPlayerVolume(float)/SetPlayerMuted(bool). Separately PlayerMaster.voiceChat is typed Il2Cpp.SteamworksVoiceChat, and Dissonance+Concentus are also shipped (Il2Cpp.NetworkedCharacterVoicePlayer, Dissonance.Core.* types). PlayerMaster additionally has SetRadioStatus(bool)/OnRadioUpdate + SyncVar NetworkradioUpdate, NetworkisTalking, ResetVoiceForSceneChange/ServerResetVoiceState and a VOIP_UI_DELAY coroutine.",
-    "confidence": "proven-static",
+    "confidence": "dev-confirmed",
     "members": "PlayerVoice.VoiceChatComponent (Il2CppMetaVoiceChat.MetaVc), PlayerVoice.NetworkIsRadioChat, PlayerMaster.voiceChat (Il2Cpp.SteamworksVoiceChat), Il2Cpp.NetworkedCharacterVoicePlayer",
-    "modding": "The established note that voice is \"Dissonance+Concentus\" is incomplete \u2014 proximity/radio voice on the player runs through MetaVoiceChat. Which of the three is actually live at runtime needs a probe (check which component is enabled on a spawned player).",
+    "modding": "DEV-CONFIRMED: the OPERATOR developers confirm this middleware is not used. Edgegap in particular is never touched and is present only because Mirror bundles it. The established note that voice is \"Dissonance+Concentus\" is incomplete \u2014 proximity/radio voice on the player runs through MetaVoiceChat. Which of the three is actually live at runtime needs a probe (check which component is enabled on a spawned player).",
     "surprise": true
    },
    {
@@ -665,9 +665,9 @@
    {
     "title": "Four Mirror transports and two lobby SDKs ship in the binary; most are dead weight",
     "detail": "Confirmed present as real types: `Il2Cppkcp2k.KcpTransport` (assembly Il2CppMirror.Transports), `Il2CppMirror.LiteNetLibTransport` (own assembly Il2CppLiteNetLibTransport), `Il2CppMirror.TelepathyTransport`, `Il2CppMirror.SimpleWeb.SimpleWebTransport`, `Il2CppMirror.LatencySimulation`, `Il2CppMirror.MultiplexTransport`, `Il2CppMirror.FizzySteam.FizzySteamworks` (own assembly Il2CppFizzySteamworks). Also present but unreferenced by game code: the entire Edgegap relay + Edgegap lobby service stack (`Edgegap.EdgegapKcpTransport`, `EdgegapLobbyKcpTransport`, `LobbyApi`, `LobbyCreateRequest`, ...) and `DiscordGameSDK\\LobbyManager.cs`. Mirror's own `NetworkLobbyManager`/`NetworkRoomManager`/`NetworkRoomPlayer` are compiled in but the game uses none of them \u2014 it rolls its own Steam lobby.",
-    "confidence": "proven-static",
+    "confidence": "dev-confirmed",
     "members": "Il2Cppkcp2k.KcpTransport; Il2CppMirror.LiteNetLibTransport; Il2CppMirror.TelepathyTransport; Il2CppMirror.SimpleWeb.SimpleWebTransport; Il2CppMirror.LatencySimulation; Il2CppMirror.MultiplexTransport; Edgegap.LobbyApi; Mirror.NetworkRoomManager",
-    "modding": "LatencySimulation and MultiplexTransport are usable as-is: wrap the Steam transport in LatencySimulation for netcode testing, or Multiplex Steam+KCP so Steam friends and direct-IP clients can join the same host.",
+    "modding": "DEV-CONFIRMED: the OPERATOR developers confirm this middleware is not used. Edgegap in particular is never touched and is present only because Mirror bundles it. LatencySimulation and MultiplexTransport are usable as-is: wrap the Steam transport in LatencySimulation for netcode testing, or Multiplex Steam+KCP so Steam friends and direct-IP clients can join the same host.",
     "surprise": true
    },
    {
@@ -737,9 +737,9 @@
    {
     "title": "Three voice implementations ship; two are dead, and Dissonance is dead weight in its own assembly",
     "detail": "`Il2Cpp.VoiceChat` (`Cmd_SendData(byte[] data, uint size)` -> `Target_PlaySound(byte[] DestBuffer, uint BytesWritten)`) and `Il2Cpp.SteamworksVoiceChat` (`StartRecordingVoice`, `SendDataToServer(byte[], uint)`, `ReceiveVoiceDataClient(byte[], uint)`, `OnAudioRead(float[])`, `OnAudioReadRadio(float[])`, `WriteToClip`, plus its own radio AudioSources) are both complete, weaved Steam-voice implementations that nothing current points at \u2014 `PlayerVoice` uses MetaVc. `PlayerMaster.voiceChat` is still typed `Il2Cpp.SteamworksVoiceChat`, a leftover reference. Dissonance is a whole separate assembly `Il2CppDissonanceVoip` (`Dissonance.DissonanceComms` with Rooms/PlayerChannels/RoomChannels/TextChat) with no game-code references found. `Il2Cpp.VoiceChatEnabler` is an empty class \u2014 no members beyond constructors.",
-    "confidence": "likely",
+    "confidence": "dev-confirmed",
     "members": "Il2Cpp.VoiceChat; Il2Cpp.SteamworksVoiceChat; PlayerMaster.voiceChat; Dissonance.DissonanceComms; Il2Cpp.VoiceChatEnabler",
-    "modding": "Do not hook SteamworksVoiceChat or Dissonance expecting live audio. Runtime probe to confirm: check whether any active scene object has a SteamworksVoiceChat or DissonanceComms component enabled.",
+    "modding": "DEV-CONFIRMED: the OPERATOR developers confirm this middleware is not used. Edgegap in particular is never touched and is present only because Mirror bundles it. Do not hook SteamworksVoiceChat or Dissonance expecting live audio. Runtime probe to confirm: check whether any active scene object has a SteamworksVoiceChat or DissonanceComms component enabled.",
     "surprise": true
    },
    {
@@ -833,9 +833,9 @@
    {
     "title": "Text chat does not exist as a player-typed feature; ChatController is a display sink for system messages",
     "detail": "`Il2Cpp.ChatController` has exactly one real method, `AddToChatOutput(string newText)`, over `ChatInputField` (TMP_InputField), `ChatDisplayOutput` (TMP_Text), `ChatScrollbar` (UI.Scrollbar) \u2014 no Command, no Rpc, no NetworkBehaviour base. The only thing observed feeding it is `PlayerMaster.RPC_SendJoinMessage(string playerName)`. Dissonance's `TextChat` is present in the unused Dissonance assembly. So the input field is wired to nothing over the network.",
-    "confidence": "likely",
+    "confidence": "dev-confirmed",
     "members": "Il2Cpp.ChatController; AddToChatOutput(string); ChatInputField; PlayerMaster.RPC_SendJoinMessage(string); Dissonance.TextChat",
-    "modding": "Adding real text chat means adding a Command/ClientRpc pair on PlayerMaster and calling AddToChatOutput on receipt \u2014 the UI half already exists and is already in the scene.",
+    "modding": "DEV-CONFIRMED: the OPERATOR developers confirm this middleware is not used. Edgegap in particular is never touched and is present only because Mirror bundles it. Adding real text chat means adding a Command/ClientRpc pair on PlayerMaster and calling AddToChatOutput on receipt \u2014 the UI half already exists and is already in the scene.",
     "surprise": true
    },
    {
@@ -1456,9 +1456,9 @@
    {
     "title": "Dead or vestigial rendering middleware shipping in the build",
     "detail": "(a) AmplifyImpostors: Il2CppAmplifyImpostors.Runtime.dll ships and \\Assets\\AmplifyImpostors\\Plugins\\Scripts\\{AmplifyImpostor,Preferences,VersionInfo,Triangulator}.cs appear in script_paths, but NO shader named AmplifyImpostors/* exists in the build, and every game-side impostor type \u2014 Il2Cpp.HDRPHemiOctahedralImpostor, Il2Cpp.FoliageHemiOctahedralImpostor, Il2Cpp.SpeedTreeHemiOctahedralImpostor \u2014 resolves to Il2CppProjectDawn.Impostor.Impostor / Il2CppProjectDawn.Impostor.CapturePoints, matching the shipped 'Shader Graphs/Lit Hemi Octahedral Impostor' family. Two impostor packages, one in use. (b) Unity.Postprocessing.Runtime.dll (PPv2) ships and its shaders are in the build (Hidden/PostProcessing/Debug/Waveform, Hidden/PostProcessing/Debug/Vectorscope, Hidden/PostProcessing/SubpixelMorphologicalAntialiasing) but all actual post-processing is HDRP VolumeComponents. (c) Michsky.UI.Dark.QualityManager and Michsky.UI.Shift.QualityManager literals \u2014 UI-pack demo quality managers. (d) Il2CppInTerra.InTerra_HDRPTerrainShaderSelection is compiled into Assembly-CSharp (not the InTerra assembly) and its source path is \\Assets\\InTerra\\HDRP\\Demo Scene\\Terrain\\... \u2014 an InTerra demo-scene script that leaked into the game assembly; it has only Update() and no members. (e) Il2Cpp.RenderingLayerMask_Test \u2014 OnEnable() and get_rlm() -> uint, a test scaffold. (f) TheVisualEngine (Boxophobic) already known-unused; also present are Ultimate Scope Shaders/Demo/TestGrid and several HDRPSamples/* shaders (ObjectEdgeDetection, ObjectHighlightFullscreen, HighlightDrawToCustomColor, NightSky_ToCubemap).",
-    "confidence": "likely",
+    "confidence": "dev-confirmed",
     "members": "Il2CppAmplifyImpostors.Runtime, Il2CppProjectDawn.Impostor.Impostor, HDRPHemiOctahedralImpostor, FoliageHemiOctahedralImpostor, Unity.Postprocessing.Runtime, InTerra_HDRPTerrainShaderSelection, RenderingLayerMask_Test",
-    "modding": "Do not build against AmplifyImpostors or PPv2 \u2014 patching them will have no visible effect. The HDRPSamples/* fullscreen shaders (ObjectHighlightFullscreen, ObjectEdgeDetection, HighlightDrawToCustomColor) ARE in the build and are ready-made outline/highlight effects a mod could mount on a CustomPassVolume without authoring a shader. Confirm the Amplify-is-dead call at runtime by counting AmplifyImpostor component instances in a loaded operation scene.",
+    "modding": "DEV-CONFIRMED: the OPERATOR developers confirm this middleware is not used. Edgegap in particular is never touched and is present only because Mirror bundles it. Do not build against AmplifyImpostors or PPv2 \u2014 patching them will have no visible effect. The HDRPSamples/* fullscreen shaders (ObjectHighlightFullscreen, ObjectEdgeDetection, HighlightDrawToCustomColor) ARE in the build and are ready-made outline/highlight effects a mod could mount on a CustomPassVolume without authoring a shader. Confirm the Amplify-is-dead call at runtime by counting AmplifyImpostor component instances in a loaded operation scene.",
     "surprise": true
    },
    {
@@ -1566,8 +1566,8 @@
     "title": "Voice chat is MetaVoiceChat over Mirror, not Dissonance \u2014 and two dead voice implementations remain in the build",
     "detail": "Il2Cpp.PlayerVoice.VoiceChatComponent is typed `Il2CppMetaVoiceChat.MetaVc`. MetaVc: StartClient(INetProvider, bool isLocalPlayer, int maxDataBytesPerPacket), SendFrame(int index, float[] samples), ReceiveFrame(int index, double timestamp, float additionalLatency, ReadOnlySpan<byte> data), StopClient(), SetIsSpeaking(bool), with audioInput (VcAudioInput), audioOutput (VcAudioOutput), encoder (Opus.VcEncoder), decoder (Opus.VcDecoder), jitter (VcJitter), and reactive props isDeafened/isInputMuted/isOutputMuted/isSpeaking. Codec config is Il2CppMetaVoiceChat.VcConfig exposing Il2CppConcentus.Enums types (OpusBandwidth/MaxBandwidth, OpusMode, OpusApplication, OpusFramesize, OpusSignal, complexity) plus SamplesPerSecond, framePeriodMs, samplesPerFrame, jitterTimeWindow, outputMinBufferSize. Transport is Metater's MirrorNetProvider. Il2CppDissonanceVoip.dll is present with a full pipeline but nothing in the game assembly references it. Two further orphans: Il2Cpp.VoiceChat (Cmd_SendData(byte[], uint) / Target_PlaySound(byte[], uint), one AudioSource) and Il2Cpp.SteamworksVoiceChat (full Steam voice API path: StartRecordingVoice, StopRecordingVoice, SendDataToServer, ReceiveVoiceDataClient, OnAudioRead, OnAudioReadRadio, WriteToClip, optimalRate, voiceBuffer, and its OWN radio chain localVoip/radioVoip/radioNoise/radioStartBeep/radioEndBeep) \u2014 superseded by PlayerVoice, which duplicates that radio chain.",
     "members": "PlayerVoice.VoiceChatComponent -> Il2CppMetaVoiceChat.MetaVc; MetaVc.SendFrame, ReceiveFrame, StartClient; VcConfig; Il2Cpp.VoiceChat, Il2Cpp.SteamworksVoiceChat",
-    "modding": "Corrects the standing note 'Dissonance+Concentus (voice)': Concentus serves MetaVoiceChat's Opus encoder/decoder; Dissonance is dead weight. Patch MetaVc.ReceiveFrame / SendFrame for voice interception. Do not waste effort on Dissonance's API or on SteamworksVoiceChat.",
-    "confidence": "proven-static",
+    "modding": "DEV-CONFIRMED: the OPERATOR developers confirm this middleware is not used. Edgegap in particular is never touched and is present only because Mirror bundles it. Corrects the standing note 'Dissonance+Concentus (voice)': Concentus serves MetaVoiceChat's Opus encoder/decoder; Dissonance is dead weight. Patch MetaVc.ReceiveFrame / SendFrame for voice interception. Do not waste effort on Dissonance's API or on SteamworksVoiceChat.",
+    "confidence": "dev-confirmed",
     "surprise": true
    },
    {

@@ -90,6 +90,8 @@ What `data/textures/` contains is metadata read out of the shipped bundles: asse
 
 Remero, visuals developer at ODG, corrected the AssetBundle section after loading one himself on the M107.
 
+milk_drinker01, developer of OPERATOR, confirmed that Dissonance, PPv2 and the Edgegap relay/lobby stack are not used by the game, and that Edgegap is present only because Mirror bundles it. That section previously buried the "shipped but dead" qualifier inside a middleware paragraph and read as though the game used them; it is now a separate table. He also noted the `V2`/`V3` script suffixes predate the project's version control rather than marking deliberate revisions. Points he confirmed directly are marked `[DEV]` in the architecture reference.
+
 ## License
 
 MIT. See `LICENSE`.
