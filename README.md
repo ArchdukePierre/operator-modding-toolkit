@@ -54,6 +54,8 @@ Ten parallel investigations produced 125 findings, 104 of them proven by opening
 
 `docs/operator-api.md` is the API surface: weapons, character customisation, missions, infiltration, doors and AI navigation, with exact member names and signatures.
 
+`reference/door-dead-fields.md` is a dead-field audit of the door scripts, written for the developers' cleanup pass rather than for modders. It lists which serialized fields on `DoorV2` and `DoorHandleV2` are unreferenced, which look dead but are read from elsewhere, and the one that costs two wasted GameObjects per door at runtime.
+
 `template/` is a minimal MelonMod with a working csproj and a deploy script, so a first mod takes ten minutes instead of an afternoon.
 
 `src/RuntimeAssets` is the runtime asset pipeline. AssetBundles can be made to load but need a raw il2cpp invoke and lose their materials, so building geometry and audio in engine at runtime is often the shorter path. `ObjMesh` parses Wavefront OBJ into Unity meshes with per group submeshes and correct index rewinding. `WavAudio` parses RIFF into an `AudioClip` without a decoder. Both are written against Il2CppInterop array marshalling, which is the part that usually breaks.
