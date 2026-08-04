@@ -16,7 +16,7 @@ Method note: unlike the rest of this repository, which is derived from disassemb
 | Field | Line | Status |
 |---|---|---|
 | `DoorModelParent` | 22 | Only referenced inside the commented-out `TryAutoFindCollider` (107-121). |
-| `DoorMask` | 24 | Only reference is the commented-out raycast at `DoorHandleV2.cs:294`. The `= 4545` default is also nonsense as a LayerMask. |
+| `DoorMask` | 24 | Only reference is the commented-out raycast at `DoorHandleV2.cs:294`. The `= 4545` literal decodes to layers 0, 6, 7, 8, 12, so it is a valid mask written as a magic number, not a junk value. |
 | `navCutOpenSize` | 55 | Only in the commented-out NavMeshCut resize block in `HandleAIBlockers` (455-481). |
 | `navCutCloseSize` | 56 | Same. |
 
