@@ -45,8 +45,28 @@ dead-door block, which `DoorHandleV2` consumes.
 
 ---
 
-## Before deleting
+## Before deleting: what is actually serialized
 
-`DoorModelParent`, `DoorMask`, `navCutOpenSize`, `navCutCloseSize` and `RivalDoorHandle` are public serialized
-fields with values already baked into roughly 40 door prefabs. Removing the field drops that serialized data.
-That does not matter while they stay unused, but it is not recoverable if the field is wanted again later.
+Checked against `_DoorV2_BASE.prefab`, since what is authored on the prefab is what a deletion actually costs.
+Most of these turn out to cost nothing.
+
+| Field | On the base prefab | Cost of removing |
+|---|---|---|
+| `DoorModelParent` | Assigned to a real child | Loses a live reference |
+| `DoorMask` | `m_Bits: 4545`, layers 0, 6, 7, 8, 12 | Loses the mask. Matches the `= 4545` in code, so the literal is not wrong, just opaque |
+| `navCutOpenSize` | `{0, 0, 0}` | Nothing. Never authored |
+| `navCutCloseSize` | `{0, 0, 0}` | Nothing. Never authored |
+| `GrabbedHandle` | `0` on both handles | Nothing |
+| `raycastTransform` | Absent from the prefab entirely | Nothing. Confirms it only ever exists at runtime |
+| `RivalDoorHandle` | Assigned on both handles | Loses real wiring, see below |
+
+So of everything flagged, only `DoorModelParent`, `DoorMask` and `RivalDoorHandle` hold authored data. The
+navCut sizes and `GrabbedHandle` are zeroes, and `raycastTransform` does not exist outside `Start()`.
+
+**`RivalDoorHandle` is worth a second look before it goes.** Nothing in code reads it, but on the base prefab
+the two `DoorHandleV2` components point at each other, a deliberate mutual pairing rather than a stale value
+someone forgot to clear. Either the behaviour that consumed it moved elsewhere, or it was wired in advance for
+something that never landed. Deleting the field drops that pairing on every door prefab that has it.
+
+The same check is worth running across the other door prefabs before removing anything, since only the base was
+inspected here.
